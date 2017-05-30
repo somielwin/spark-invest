@@ -1168,6 +1168,9 @@ body {
             text-decoration: none;
             color: $defaultColor;
             display: block;
+            position: relative;
+            z-index: 999;
+            touch-action: initial;
 
             &.active {
 

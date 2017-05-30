@@ -4675,6 +4675,9 @@ body.windows {
   text-decoration: none;
   color: #231f20;
   display: block;
+  position: relative;
+  z-index: 999;
+  touch-action: initial;
 }
 
 .want-options .type-item a.active .type-img {
