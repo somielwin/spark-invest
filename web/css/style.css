@@ -3415,6 +3415,12 @@ body {
   background: #0cc5ad;
 }
 
+@media (max-width: 767px) {
+  body {
+    background: #f2f2f2;
+  }
+}
+
 body.windows {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
