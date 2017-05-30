@@ -1,0 +1,375 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex,nofollow" />
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>Manulife | Home</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link rel="stylesheet" href="css/style.css" media="all"/>
+
+<!--[if lt IE 9]> <script src="js/css3-mediaqueries.js"></script> <![endif]-->
+<script src="js/html5.js"></script>
+<script src="js/lib/modernizr-2.8.3.min.js"></script>
+<script src="js/pace.min.js"></script>
+
+</head>
+<body>
+<section id="main-container">
+
+	<section id="main-wrapper">
+		<section id="home-banner" class="jq-section">
+			<div class="banner-text">
+				<div class="table-wrap">
+					<div class="table-cell">
+						<div class="container text-center">
+							<div class="banner-text-wrap">
+								<div class="logo"><a href="#"><img src="images/logo-new.png" width="306" alt=""></a></div>
+								<h1 class="is-animated">SparkInvest is the simple way to reach your <span class="is-animated">#TravelGoals.</span></h1>
+								<p class="is-animated">We get it. Saving is hard. This app takes the hassle out of funding your goals.</p>
+								<a href="" class="btn watch-video is-animated">Watch Video</span> <span class="icon-play"><i class="fa fa-play" aria-hidden="true"></i></span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="home-flexslider flexslider" style="">
+				<ul class="slides">
+					<li>
+						<div class="home-slide-item" data-text="#TravelGoals.">
+							<div class="coverimage desktop-cover"><img class="" src="images/banner-travel.jpg" width="1400" height="700" />
+								
+								<!-- <div class="parallax bp-ab" data-stellar-background-ratio="0.5" style="background-image: url('images/slider7.jpg');"></div> -->
+							</div>
+							<div class="coverimage mobile-cover"><img data-src="images/mobile-slider7.jpg" src="" width="520" height="925" /></div>
+						</div>
+					</li>
+					<li>
+						<div class="home-slide-item" data-text="#CarGoals.">
+
+							<div class="coverimage desktop-cover"><img class="" data-src="images/banner-car.jpg" src="" width="1400" height="700" /></div>
+							<div class="coverimage mobile-cover"><img data-src="images/mobile-slider1.jpg" src="" width="520" height="925" /></div>
+						</div>
+					</li>
+					<li>
+						<div class="home-slide-item" data-text="#Adulting.">
+							<div class="coverimage desktop-cover"><img class="" data-src="images/banner-lifeevent.jpg" src="" width="1400" height="700" /></div>
+							<div class="coverimage mobile-cover"><img data-src="images/mobile-slider7.jpg" src="" width="520" height="925" /></div>
+						</div>
+					</li>
+					<li>
+						<div class="home-slide-item" data-text="#LifeGoals.">
+							<div class="coverimage desktop-cover"><img class="" data-src="images/banner-general.jpg" src="" width="1400" height="700" /></div>
+							<div class="coverimage mobile-cover"><img data-src="images/mobile-slider1.jpg" src="" width="520" height="925" /></div>
+						</div>
+					</li>
+					<li>
+						<div class="home-slide-item" data-text="#CareerGoals.">
+							<div class="coverimage desktop-cover"><img data-src="images/banner-lifeevent.jpg" src="" width="1400" height="700" /></div>
+							<div class="coverimage mobile-cover"><img data-src="images/mobile-slider7.jpg" src="" width="520" height="925" /></div>
+						</div>
+					</li>
+					<li>
+						<div class="home-slide-item" data-text="#HouseGoal.">
+							<div class="coverimage desktop-cover"><img class="" data-src="images/banner-house.jpg" src="" width="1400" height="700" /></div>
+							<div class="coverimage mobile-cover"><img data-src="images/mobile-slider1.jpg" src="" width="520" height="925" /></div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			
+		</section>
+
+		<section id="" class="sec-pad">
+			<div class="you-can">
+				<div class="container">
+					<h2 class="sec-title text-center">With SparkInvest, you can:</h2>
+					<div class="flex">
+						<div class="you-can-item animated hiding" data-animation="fadeInUp" data-delay="100">
+							<div class="img-wrap"><img src="images/graphic1.jpg" alt=""></div>
+							<div class="you-can-text">
+								<p><span>Start on</span> your goals whenever you want.</p>
+							</div>
+						</div>
+						<div class="you-can-item animated hiding" data-animation="fadeInUp" data-delay="200">
+							<div class="img-wrap"><img src="images/graphic2.jpg" alt=""></div>
+							<div class="you-can-text">
+								<p><span>Track</span> your progress in real-time.</p>
+							</div>
+						</div>
+						<div class="you-can-item animated hiding" data-animation="fadeInUp" data-delay="300">
+							<div class="img-wrap"><img src="images/graphic3.jpg" alt=""></div>
+							<div class="you-can-text">
+								<p><span>Maneuver</span> freely.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="" class="sec-pad">
+			<div class="step-wrap">
+				<div class="container">
+					<h2 class="sec-title text-center animated hiding" data-animation="fadeInUp">Make it happen in only 3 steps</h2>
+					<div class="flex">
+						<div class="step-item animated hiding" data-animation="fadeInUp">
+							<span class="step-num animated hiding" data-animation="zoomIn" data-delay="200">1</span>
+							<div class="step-box">
+								<div class="step-box-content">
+									<div class="step-box-icon"><span class="spark-icon icon-SparkYourGoal"></span></div>
+									<h4>Spark Your Goal</h4>
+									<p>Let's get you started.</p>
+								</div>
+							</div>
+						</div>
+						<div class="step-item animated hiding" data-animation="fadeInUp">
+							<span class="step-num animated hiding" data-animation="zoomIn" data-delay="300">2</span>
+							<div class="step-box">
+								<div class="step-box-content">
+									<div class="step-box-icon"><span class="spark-icon icon-CreateAnAccount"></span></div>
+									<h4>Create An Account</h4>
+									<p>Tell us more about you!</p>
+								</div>
+							</div>
+						</div>
+						<div class="step-item animated hiding" data-animation="fadeInUp">
+							<span class="step-num animated hiding" data-animation="zoomIn" data-delay="400">3</span>
+							<div class="step-box">
+								<div class="step-box-content">
+									<div class="step-box-icon"><span class="spark-icon icon-PayOnline"></span></div>
+									<h4>Pay Online</h4>
+									<p>Congratulations! You just sparked your goal.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="" class="sec-pad null-bot null-top">
+			<div class="preview-form">
+				<div class="container">
+					<div class="sec-header animated hiding" data-animation="fadeInUp">
+						<span class="sec-head-icon"><span class="spark-icon icon-Phone"></span></span>
+						<h2>Here's a preview of what <br>SparkInvest can do.</h2>
+						<p>It'll just take a minute to try it out.</p>
+					</div>
+
+					<div class="form-wrapper" id="manulifeForm">
+						<form method="post" action="">
+							<div class="options-wrap options-carousel animated hiding" data-animation="fadeInUp">
+								<span class="sec-head-icon"><span class="spark-icon icon-SparkYourGoal"></span></span>
+								<h3>What I Want:</h3>
+								<p>Pick One</p>
+								<div class="want-options owl-carousel owl-theme">
+									<div class="item">
+										<div class="type-item">
+											<a href="#travel-opt">
+												<div class="type-img"><span class="spark-icon icon-Travel"></span></div>
+												<p><strong>Travel</strong></p>
+											</a>
+										</div>
+									</div>
+									<div class="item">
+										<div class="type-item">
+											<a href="#car-opt">
+												<div class="type-img"><span class="spark-icon icon-Car"></span></div>
+												<p><strong>Car</strong></p>
+											</a>
+										</div>
+									</div>
+									<div class="item">
+										<div class="type-item">
+											<a href="#life-opt">
+												<div class="type-img"><span class="spark-icon icon-Life-Evenet"></span></div>
+												<p><strong>Life Event</strong></p>
+											</a>
+										</div>
+									</div>
+									<div class="item">
+										<div class="type-item">
+											<a href="#educ-opt">
+												<div class="type-img"><span class="spark-icon icon-Education"></span></div>
+												<p><strong>Education</strong></p>
+											</a>
+										</div>
+									</div>
+									<div class="item">
+										<div class="type-item">
+											<a href="#house-opt">
+												<div class="type-img"><span class="spark-icon icon-House"></span></div>
+												<p><strong>House</strong></p>
+											</a>
+										</div>
+									</div>
+									<div class="item">
+										<div class="type-item">
+											<a href="#general-opt">
+												<div class="type-img"><span class="spark-icon icon-General-Need"></span></div>
+												<p><strong>General Needs</strong></p>
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="input-wrap">
+									<div class="required-field"><p>Please pick what you want.</p></div>
+								</div>
+							</div>
+							<div id="travel-opt" class="options-wrap opt-carousel">
+								<span class="sec-head-icon"><span class="spark-icon icon-Trave-Stroke"></span></span>
+								<h3>Where To?</h3>
+								<div class="input-wrap small">
+									<input class="goal-options" type="text" name="" onchange="this.setAttribute('value', this.value);" placeholder="Type your destination here" value="">
+									<div class="required-field"><p>Please complete this field.</p></div>
+								</div>
+							</div>
+							<div id="car-opt" class="options-wrap opt-carousel">
+								<span class="sec-head-icon"><span class="spark-icon icon-Car-Stroke"></span></span>
+								<h3>What Model?</h3>
+								<div class="input-wrap small">
+									<input class="goal-options" type="text" name="" onchange="this.setAttribute('value', this.value);" placeholder="Type the model here" value="">
+									<div class="required-field"><p>Please complete this field.</p></div>
+								</div>
+							</div>
+							<div id="life-opt" class="options-wrap opt-carousel">
+								<span class="sec-head-icon"><span class="spark-icon icon-Life-Evenet-Stroke"></span></span>
+								<h3>What's Happening?</h3>
+								<div class="input-wrap small">
+									<input class="goal-options" type="text" name="" onchange="this.setAttribute('value', this.value);" placeholder="Type your event here" value="">
+									<div class="required-field"><p>Please complete this field.</p></div>
+								</div>
+							</div>
+							<div id="educ-opt" class="options-wrap opt-carousel">
+								<span class="sec-head-icon"><span class="spark-icon icon-Education-Stroke"></span></span>
+								<h3>What's The Target?</h3>
+								<div class="input-wrap small">
+									<input class="goal-options" type="text" name="" onchange="this.setAttribute('value', this.value);" id="datepicker" placeholder="Type your target here" value="" readonly>
+									<div class="required-field"><p>Please complete this field.</p></div>
+								</div>
+
+							</div>
+							<div id="house-opt" class="options-wrap opt-carousel">
+								<span class="sec-head-icon"><span class="spark-icon icon-House-Stroke"></span></span>
+								<h3>What's The Address?</h3>
+								<div class="input-wrap small">
+									<input class="goal-options" type="text" name="" onchange="this.setAttribute('value', this.value);" placeholder="Type the address here" value="">
+									<div class="required-field"><p>Please complete this field.</p></div>
+								</div>
+								
+							</div>
+							<div id="general-opt" class="options-wrap opt-carousel">
+								<span class="sec-head-icon"><span class="spark-icon icon-General-Need-Stroke"></span></span>
+								<h3>What's Your Goal?</h3>
+								<div class="input-wrap small">
+									<input class="goal-options" type="text" name="" onchange="this.setAttribute('value', this.value);" placeholder="Type your goal here" value="">
+									<div class="required-field"><p>Please complete this field.</p></div>
+								</div>
+								
+							</div>
+							<!-- End Options -->
+							<div class="options-wrap animated hiding" data-animation="fadeInUp">
+								<span class="sec-head-icon"><span class="spark-icon icon-PayOnline"></span></span>
+								<h3>How Much I Need:</h3>
+								<div class="input-wrap small">
+									<input id="how-need" type="tel" name="" class="number-field" onkeypress="return event.charCode >= 48 && event.charCode <= 57" onchange="this.setAttribute('value', this.value);" placeholder="Type here" value="">
+									<div class="required-field"><p>Please complete this field.</p></div>
+								</div>
+							</div>
+							<div class="options-wrap opt-invest animated hiding" data-animation="fadeInUp">
+								<span class="sec-head-icon"><span class="spark-icon icon-invest"></span></span>
+								<h3>How Much I Can Invest:</h3>
+								<div class="input-wrap small">
+									<input id="invest" type="tel" name="" class="number-field" onkeypress="return event.charCode >= 48 && event.charCode <= 57" onchange="this.setAttribute('value', this.value);" placeholder="Choose how much per month" value="">
+									<div class="required-field"><p>Please complete this field.</p></div>
+									<div class="required-field minimum"><p>Please input greater than 5,000</p></div>
+								</div>
+								<!-- <div class="select-wrapper">
+									<div class="mobile-custom-dropdown js-mobile-custom-dropdown">
+										<span class="selected">Choose how much per month</span>
+										<ul class="custom-dropdown-menu js-custom-dropdown-menu">
+											<li class="selected"><a href="#">PhP 500</a></li>
+											<li><a href="#">PhP 1,000</a></li>
+											<li><a href="#">PhP 2,000</a></li>
+											<li><a href="#">PhP 3,000</a></li>
+											<li><a href="#">PhP 4,000</a></li>
+											<li><a href="#">PhP 5,000</a></li>
+										</ul>
+									</div>
+								</div> -->
+								<p>(Minimum of PhP 5,000)</p>
+							</div>
+							<div class="text-center animated hiding" data-animation="fadeInUp">
+								<input type="submit" name="" value="Spark my Goal!" class="btn btn-green">
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<section id="" class="sec-pad bg-grey">
+			<div class="container">
+				<div class="bet-wrap">
+					<div class="animated hiding" data-animation="fadeInUp">
+						<div class="icon-logo animated hiding" data-animation="zoomIn" data-delay="600"><img src="images/logo-icon.png" alt=""></div>
+						<h3>Like what you see? <br> Sign up and get first dibs!</h3>
+						<div class="slot-wrap animated hiding" data-animation="zoomIn" >
+							<div class="slot-available">
+								<h2>39 <span>Slots Left!</span></h2>
+							</div>
+						</div>
+					</div>
+					<div class="sign-up-wrap animated hiding" data-animation="fadeInUp">
+						<h3>Be one of the first 500 to try out SparkInvest!</h3>
+						<form id="subscribeNewsletter" method="post" action="" novalidate="">
+							<div class="input-wrap half">
+								<input type="text" id="first-name" name="fname" value="" maxLength="20" required="required" onchange="this.setAttribute('value', this.value);">
+						            <label for="first-name">Enter Name</label>
+						            <div class="required-field right">
+						                <p>This field is required <span>*</span></p>
+						            </div>
+							</div>
+							<div class="input-wrap half">
+								<input type="email" id="account-email" name="email" value="" required="required" onchange="this.setAttribute('value', this.value);">
+						            <label for="account-email">Enter Email</label>
+						            <div class="required-field right">
+						                <p>This field is required <span>*</span></p>
+						            </div>
+							</div>
+							<div class="clr"></div>
+							<div class="input-wrap">
+								<input class="btn" type="submit" name="" value="I'm In!">
+							</div>
+						</form>
+					</div>
+					
+				</div>
+			</div>
+		</section>
+	</section>
+</section>
+<footer>
+	<div class="container">
+		
+	</div>
+</footer>
+<script src="js/lib/jquery.min.js"></script>
+<script src="js/lib/jquery-ui.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/TweenMax.min.js"></script>
+<script src="js/ScrollToPlugin.min.js"></script>
+<script src="js/jquery.appear.js"></script>
+<script src="js/jquery.flexslider.js"></script>
+<script src="js/owl.carousel.js"></script>
+<script src="js/custom.js"></script>
+<script type="text/javascript">
+
+	
+</script>
+</body>
+</html>
