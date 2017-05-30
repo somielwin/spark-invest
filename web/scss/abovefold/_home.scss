@@ -375,7 +375,7 @@
             position: absolute;
             top: 50%;
             left: 50%;
-            margin-top: -5px;
+            margin-top: -7px;
             margin-left: -3px;
         }
         
@@ -422,7 +422,7 @@
     }
 
     &:before {
-        content: "\f107";
+        content: "\e900";
         display: block;
         color: $coWhite;
         font-size: 20px;
@@ -431,21 +431,27 @@
         -ms-animation: animArrow 1s infinite ease;
         -o-animation: animArrow 1s infinite ease;
         animation: animArrow 1s infinite ease;
-        display: inline-block;
-        font: normal normal normal 14px/1 FontAwesome;
-        font-size: inherit;
-        text-rendering: auto;
+        font-family: 'icomoon' !important;
+        speak: none;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+
+        /* Better Font Rendering =========== */
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
-        font-size: 32px;
+        font-size: 20px;
         font-weight: 300;
         position: absolute;
-        top: 10px;
+        top: 18px;
         left: 50%;
-        margin-left: -6px;
+        margin-left: -15px;
 
         @include breakpoint(tablet2) {
-            font-size: 24px;
+            font-size: 14px;
+            margin-left: -8px;
         }
 
     }
