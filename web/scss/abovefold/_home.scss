@@ -220,7 +220,16 @@
                 -moz-animation: animBg 1.5s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1) forwards;
                 -ms-animation: animBg 1.5s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1) forwards;
                 -o-animation: animBg 1.5s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1) forwards;
-                animation: animBg 1.5s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1) forwards
+                animation: animBg 1.5s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1) forwards;
+
+                @include breakpoint(tablet2) {
+                    -webkit-animation: none !important;
+                    -moz-animation: none !important;
+                    -ms-animation: none !important;
+                    -o-animation: none !important;
+                    animation: none !important;
+                }
+
             }
         }
     }

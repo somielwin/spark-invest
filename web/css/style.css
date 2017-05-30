@@ -3415,12 +3415,6 @@ body {
   background: #0cc5ad;
 }
 
-@media (max-width: 767px) {
-  body {
-    background: #f2f2f2;
-  }
-}
-
 body.windows {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -7449,6 +7443,16 @@ a.ui-button:active,
   -ms-animation: animBg 1.5s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1) forwards;
   -o-animation: animBg 1.5s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1) forwards;
   animation: animBg 1.5s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1) forwards;
+}
+
+@media (max-width: 767px) {
+  .home-flexslider ul.slides li.flex-active-slide {
+    -webkit-animation: none !important;
+    -moz-animation: none !important;
+    -ms-animation: none !important;
+    -o-animation: none !important;
+    animation: none !important;
+  }
 }
 
 .home-flexslider .flex-control-nav {
