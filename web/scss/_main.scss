@@ -1168,7 +1168,7 @@ body {
             color: $defaultColor;
             display: block;
 
-            &:hover, &.active {
+            &.active {
 
                 .type-img {
                     background: $coGreen;
@@ -1183,6 +1183,26 @@ body {
                 p {
                     color: $coGreen;
                 }
+            }
+
+            &:hover {
+                @media (min-width: 991px) {
+                    
+                    .type-img {
+                        background: $coGreen;
+                        border: 2px solid $coGreen;
+                        color: $coWhite;
+                    }
+
+                    .spark-icon {
+                        color: $coWhite;
+                    }
+
+                    p {
+                        color: $coGreen;
+                    }
+                }
+                
             }
         }
 
