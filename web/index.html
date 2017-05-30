@@ -67,7 +67,7 @@
 					</li>
 					<li>
 						<div class="home-slide-item" data-text="#CareerGoals.">
-							<div class="coverimage desktop-cover"><img data-src="images/banner-lifeevent.jpg" src="" width="1400" height="700" /></div>
+							<div class="coverimage desktop-cover"><img data-src="images/banner-career.jpg" src="" width="1400" height="700" /></div>
 							<div class="coverimage mobile-cover"><img data-src="images/mobile-slider7.jpg" src="" width="520" height="925" /></div>
 						</div>
 					</li>
