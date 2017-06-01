@@ -320,7 +320,7 @@
 									<span class="sec-head-icon"><span class="spark-icon icon-Life-Evenet-Stroke"></span></span>
 									<h3>When I Want It</h3>
 									<div class="input-wrap small">
-										<input type="text" name="" onchange="this.setAttribute('value', this.value);" id="datepicker" placeholder="Choose When" value="">
+										<input type="text" name="" onchange="this.setAttribute('value', this.value);" id="datepicker" placeholder="Choose When" value="" readonly>
 										<div class="required-field"><p>Please complete this field.</p></div>
 									</div>
 								</div>
