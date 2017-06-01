@@ -1331,6 +1331,8 @@ body {
     p {
         color: #333;
         font-weight: 500;
+        padding: 0px 10px;
+        word-break: break-all;
     }
 
     label {
@@ -1583,8 +1585,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   position: absolute;
-  top: 5px;
-  left: 9px;
+  top: 4px;
+  left: 8px;
   font-size: 13px;
   line-height: 0.8;
   color: #77c845;

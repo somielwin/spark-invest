@@ -402,7 +402,7 @@ $(document).ready(function() {
         	$('.reciept-what-item .sec-head-icon').html(dataWant);
         	$('.reciept-when p').html(when);
         	$('.reciept-cost p span').html(invest);
-        	$('.reciept-target-item p').html(target);
+        	$('.reciept-target-item p span').html(target);
 
         	setTimeout(function(){
         		$('html, body').animate({ scrollTop: "0" } , 600);

@@ -2639,6 +2639,10 @@ span,
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-invest:before {
+  content: "\e909";
+}
+
 .icon-Check:before {
   content: "\e915";
 }
@@ -2705,10 +2709,6 @@ span,
 
 .icon-CreateAnAccount:before {
   content: "\e908";
-}
-
-.icon-invest:before {
-  content: "\e909";
 }
 
 .icon-left-arrow:before {
@@ -4921,6 +4921,8 @@ body.windows {
 .reciept-when p, .reciept-cost p, .reciept-target p {
   color: #333;
   font-weight: 500;
+  padding: 0px 10px;
+  word-break: break-all;
 }
 
 .reciept-when label, .reciept-cost label, .reciept-target label {
@@ -5191,8 +5193,8 @@ body.windows {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   position: absolute;
-  top: 5px;
-  left: 9px;
+  top: 4px;
+  left: 8px;
   font-size: 13px;
   line-height: 0.8;
   color: #77c845;
@@ -8301,7 +8303,7 @@ a.ui-button:active,
 @media (max-width: 640px) {
   .slot-available h2 span {
     font-size: 20px;
-    line-height: 20px;
+    line-height: 22px;
   }
 }
 

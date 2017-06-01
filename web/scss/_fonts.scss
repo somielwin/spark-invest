@@ -88,6 +88,10 @@
 }
 
 
+
+.icon-invest:before {
+  content: "\e909";
+}
 .icon-Check:before {
   content: "\e915";
 }
@@ -138,9 +142,6 @@
 }
 .icon-CreateAnAccount:before {
   content: "\e908";
-}
-.icon-invest:before {
-  content: "\e909";
 }
 .icon-left-arrow:before {
   content: "\e90a";
