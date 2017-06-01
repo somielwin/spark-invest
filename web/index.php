@@ -26,7 +26,7 @@
 					<div class="table-cell">
 						<div class="container text-center">
 							<div class="banner-text-wrap">
-								<div class="logo"><a href="#"><img src="images/logo-new.png" width="306" alt=""></a></div>
+								<div class="logo"><a href="#"><img src="images/logo-new.svg" alt=""></a></div>
 								<h1 class="is-animated">SparkInvest is the simple way to reach your <span class="is-animated">#TravelGoals.</span></h1>
 								<p class="is-animated">We get it. Saving is hard. This app takes the hassle out of funding your goals.</p>
 								<a href="" class="btn watch-video is-animated">Watch Video</span> <span class="icon-play"><i class="fa fa-play" aria-hidden="true"></i></span></a>
