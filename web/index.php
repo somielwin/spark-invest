@@ -366,7 +366,7 @@
 				<div class="pf-item2" style="display:none;">
 					<div class="container">
 						<div class="sec-header animated hiding" data-animation="fadeInUp">
-							<h2>Awesome <br>Your Investment Plan <br> Is Ready.</h2>
+							<h2>Awesome <br>Your Investment Plan <br>Is Ready.</h2>
 						</div>
 
 						<div class="form-wrapper" id="sparkReciept">
