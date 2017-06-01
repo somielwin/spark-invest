@@ -778,6 +778,11 @@ body {
         text-align: center;
         font-style: italic;
         color: red;
+
+        @include breakpoint(tablet2) {
+            font-size: 12px;
+            
+        }
     }
 }
 

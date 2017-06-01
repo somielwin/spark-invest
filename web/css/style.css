@@ -4302,6 +4302,12 @@ body.windows {
   color: red;
 }
 
+@media (max-width: 767px) {
+  .required-field p {
+    font-size: 12px;
+  }
+}
+
 .form-wrapper {
   padding: 25px 0;
   background: #ffffff;
