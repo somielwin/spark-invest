@@ -268,7 +268,7 @@ $(document).ready(function() {
 		var $this = $(this);
 		var num = $this.val().replace(/,/gi, "").split("").reverse().join("");
 		var num2 = RemoveRougeChar(num.replace(/(.{3})/g,"$1,").split("").reverse().join(""));
-		console.log(num2);
+		//console.log(num2);
 
 
 		// the following line has been simplified. Revision history contains original.
@@ -276,6 +276,7 @@ $(document).ready(function() {
 	});
 
 	var optItem = '';
+	var dataWant;
 
 	$(document).on('click', '.type-item a',function(e){
 		e.preventDefault();
@@ -287,6 +288,24 @@ $(document).ready(function() {
 		$('.opt-carousel').removeClass('active');
 		$(optItem).addClass('active');
 		$('.options-carousel .input-wrap').removeClass('error');
+
+		if( optItem == '#car-opt') {
+			dataWant = '<span class="spark-icon icon-Car-Stroke"></span>';
+		} else if ( optItem == '#life-opt') {
+			dataWant = '<span class="spark-icon icon-Life-Evenet-Stroke"></span>';
+		} else if ( optItem == '#educ-opt') {
+			dataWant = '<span class="spark-icon icon-Education-Stroke"></span>';
+		} else if ( optItem == '#general-opt') {
+			dataWant = '<span class="spark-icon icon-General-Need-Stroke"></span>'
+		} else if ( optItem == '#travel-opt') {
+			dataWant = '<span class="spark-icon icon-Trave-Stroke"></span>'
+		} else if ( optItem == '#travel-opt') {
+			dataWant = '<span class="spark-icon icon-Trave-Stroke"></span>'
+		} else {
+			dataWant = '';
+		}
+
+		console.log(dataWant);
 	});
 
 	$("#datepicker").datepicker({
@@ -318,21 +337,23 @@ $(document).ready(function() {
 
 	});
 
-	$('#manulifeForm').submit(function(){
+	$('#sparkForm').submit(function(e){
+		e.preventDefault();
 
-        $('#manulifeForm .input-wrap:not(.no-error)').addClass('error');
+        $('#sparkForm .input-wrap:not(.no-error)').addClass('error');
         isvalidate = false;
 
         if(!$('#invest').val() == '' ) {
         	$('#invest').closest('.input-wrap').removeClass('error');
-        	isvalidate = true;
-
+        
         	var max = parseFloat($('#invest').val().replace(',', ''));
 
         	if ( max >= 5000 ) {
 				$('#invest').closest('.input-wrap').removeClass('error-minimum');
+				isvalidate = true;
         	} else {
 				$('#invest').closest('.input-wrap').addClass('error-minimum');
+				isvalidate = false;
         	}
         } else {
         	isvalidate = false;
@@ -344,6 +365,13 @@ $(document).ready(function() {
         } else {
         	isvalidate = false;
         }
+
+        if(!$('#datepicker').val() == '') {
+        	$('#datepicker').closest('.input-wrap').removeClass('error');
+        	isvalidate = true;
+        } else {
+			isvalidate = false;
+		}        
 
         if(!$('#how-need').val() == '') {
         	$('#how-need').closest('.input-wrap').removeClass('error');
@@ -360,8 +388,30 @@ $(document).ready(function() {
         }
 
         if(!$('#invest').val() == '' && !$('#how-need').val() == ''  && optItem != '' && !$('.opt-carousel.active .goal-options').val() == '') {
-        	return true;
-        	console.log('submitted');
+        	$('.loading-spinner-wrapper').addClass('active');
+        	var target = $('#how-need').val();
+        	var invest = $('#invest').val();
+        	var when = $('#datepicker').val();
+        	var want = $('.opt-carousel.active .goal-options').val();
+        	console.log(target);
+        	console.log(invest);
+        	console.log(want);
+        	console.log(when);
+
+        	$('.reciept-what-item p').html(want);
+        	$('.reciept-what-item .sec-head-icon').html(dataWant);
+        	$('.reciept-when p').html(when);
+        	$('.reciept-cost p span').html(invest);
+        	$('.reciept-target-item p').html(target);
+
+        	setTimeout(function(){
+        		$('html, body').animate({ scrollTop: "0" } , 600);
+        		$('.pf-item1, .reciept-hidden').css({'display' : 'none', 'visibility' : 'hidden'});
+        		$('.pf-item2').css({'display' : 'block'});
+        	}, 1000);
+
+        	
+
         } else {
         	return false;
         }
@@ -387,12 +437,24 @@ $(document).ready(function() {
         }
 
         if(!$('#account-email').val() == '' && !$('#first-name').val() == '' ) {
-        	console.log('submitted');
+        	//console.log('submitted');
         	return true;
         	
         } else {
         	return false;
         }
+    });
+
+    $('.closepop').click(function(e){
+    	e.preventDefault();
+    	$('body').css({'overflow' : 'initial'});
+    	$('.popup-wrap').removeClass('active');
+    });
+
+    $('#terms-btn').click(function(e){
+    	e.preventDefault();
+    	$('body').css({'overflow' : 'hidden'});
+    	$('.popup-wrap').addClass('active');
     });
 });
 

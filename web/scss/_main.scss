@@ -558,6 +558,7 @@ body {
         height: 40px;
         font-size: 16px;
         line-height: 40px;
+        margin-bottom: 20px;
     } 
 }
 
@@ -616,7 +617,9 @@ body {
 
     @include breakpoint(tablet2) {
         padding-top: 30px;
-        padding-bottom: 15px
+        padding-bottom: 15px;
+        background-image: url('../images/form-bg.jpg');
+        background-position: 100% 0;
     }
 
     &:after {
@@ -688,14 +691,16 @@ body {
     padding: 30px 0 40px 0;
     border-bottom: 1px solid #dbdcdd;
 
-
-
     @include breakpoint(tablet) {
         padding: 20px 0px 30px 0;
     }
 
     @include breakpoint(phablet) {
         padding: 15px 0px 25px 0;
+    }
+
+    @include breakpoint(mobile) {
+        padding: 7px 0px 15px 0;
     }
 
     &.options-carousel {
@@ -1317,6 +1322,431 @@ body {
     }
 }
 
+.reciept-when, .reciept-cost, .reciept-target {
+
+    .sec-head-icon {
+        margin-bottom: 5px;
+    }
+
+    p {
+        color: #333;
+        font-weight: 500;
+    }
+
+    label {
+        color: $coGreen;
+        font-weight: 700;
+        margin-bottom: 10px;
+        display: block;
+    }
+}
+
+.reciept-target {
+    label {
+        color: $coWhite;
+    }
+
+    p {
+        color: #fff !important;
+    }
+}
+
+.goal-wrap {
+    min-height: 900px;
+}
+
+.reciept-what {
+    background: $coGreen;
+    text-align: center;
+    padding: 30px 15px 40px !important;
+
+    @include breakpoint(tablet) {
+        padding: 20px 15px 30px !important;
+    }
+
+    @include breakpoint(phablet) {
+        padding: 15px 15px 25px !important;
+    }
+
+    .sec-head-icon {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        margin-top: -30px;
+
+        @include breakpoint(tablet2) {
+            margin-top: -23px;
+        }
+
+        .spark-icon {
+            color: $coWhite;
+        }
+    }
+
+    p {
+        color: $coWhite;
+    }
+}
+
+.reciept-what-item {
+    width: auto;
+    display: inline-block;
+    margin: 0 auto;
+    padding-left: 80px;
+    position: relative;
+    max-width: 450px;
+
+    @include breakpoint(tablet2) {
+        padding-left: 55px;
+    }
+}
+
+.reciept-target
+
+.reciept-target-item {
+    padding: 15px 0;
+    color: #fff;
+    background: #7ac244;
+    max-width: 600px;
+    margin: 0 auto;
+
+    @include breakpoint(phablet) {
+        margin: 0px 15px;
+        width: auto;
+    }
+
+    .sec-head-icon {
+
+        .spark-icon {
+             color: #fff;
+        }
+    }
+
+    p {
+        font-size: 45px;
+
+        @include breakpoint(tablet) {
+            font-size: 35px;
+        }
+
+        @include breakpoint(tablet2) {
+            font-size: 30px;
+        }
+
+        @include breakpoint(phablet) {
+            font-size: 24px;
+        }
+    }
+}
+
+#sparkReciept {
+    padding: 0;
+}
+
+.wing-checkbox {
+    padding: 15px 0 0;
+    text-align: center;
+
+    a {
+        color: $coGreen;
+        text-decoration: none;
+    }
+}
+
+
+
+.loading-spinner-wrapper {
+  position: relative;
+  width: 100%;
+  left: 0;
+  text-align: center;
+  z-index: 1000;
+  margin-top: 10px;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+
+.loading-spinner-wrapper.active {
+    opacity: 1;
+}
+
+.loading-spinner {
+  position: relative;
+  vertical-align: middle;
+  width: 50px;
+  height: 12px;
+  text-align: center;
+  margin: 0 auto;
+  display: block; }
+
+.loading-spinner i {
+  position: absolute;
+  top: 0;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: #f89f1b;
+  -webkit-animation: pulse 1s infinite ease-in-out;
+  -moz-animation: pulse 1s infinite ease-in-out;
+  animation: pulse 1s infinite ease-in-out;
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  animation-fill-mode: both; }
+
+.loading-spinner i.one {
+  left: 0;
+  -webkit-animation-delay: -.32s;
+  -moz-animation-delay: -.32s;
+  animation-delay: -.32s; }
+
+.loading-spinner i.two {
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  -webkit-animation-delay: -.16s;
+  -moz-animation-delay: -.16s;
+  animation-delay: -.16s; }
+
+.loading-spinner i.three {
+  right: 0; }
+
+.loading-spinner i {
+  background: #77c845; }
+
+
+/* Base for label styling */
+.wing-checkbox [type="checkbox"]:not(:checked),
+.wing-checkbox [type="checkbox"]:checked {
+  position: absolute;
+  left: -9999px;
+}
+
+.wing-checkbox [type="checkbox"]:not(:checked) + label,
+.wing-checkbox [type="checkbox"]:checked + label {
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 18px;
+}
+
+@media (min-width: 768px) {
+  .wing-checkbox [type="checkbox"]:not(:checked) + label,
+  .wing-checkbox [type="checkbox"]:checked + label {
+    font-size: 16px;
+    padding-left: 40px;
+  }
+}
+
+/* checkbox aspect */
+.wing-checkbox [type="checkbox"]:not(:checked) + label:before,
+.wing-checkbox [type="checkbox"]:checked + label:before {
+  content: '';
+  position: absolute;
+  left: 5px;
+  top: -1px;
+  width: 17px;
+  height: 17px;
+  background: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+@media (min-width: 768px) {
+  .wing-checkbox [type="checkbox"]:not(:checked) + label:before,
+  .wing-checkbox [type="checkbox"]:checked + label:before {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+/* checked mark aspect */
+.wing-checkbox [type="checkbox"]:not(:checked) + label:after,
+.wing-checkbox [type="checkbox"]:checked + label:after {
+  content: "\e915";
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: absolute;
+  top: 5px;
+  left: 9px;
+  font-size: 13px;
+  line-height: 0.8;
+  color: #77c845;
+  transition: all .2s;
+}
+
+@media (min-width: 768px) {
+  .wing-checkbox [type="checkbox"]:not(:checked) + label:after,
+  .wing-checkbox [type="checkbox"]:checked + label:after {
+    top: 6px;
+    left: 10px;
+  }
+}
+
+/* checked mark aspect changes */
+.wing-checkbox [type="checkbox"]:not(:checked) + label:after {
+  opacity: 0;
+  transform: scale(0);
+}
+
+.wing-checkbox [type="checkbox"]:checked + label:after {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* disabled checkbox */
+.wing-checkbox [type="checkbox"]:disabled:not(:checked) + label:before,
+.wing-checkbox [type="checkbox"]:disabled:checked + label:before {
+  box-shadow: none;
+  border-color: #bbb;
+  background-color: #ddd;
+}
+
+.wing-checkbox [type="checkbox"]:disabled:checked + label:after {
+  color: #999;
+}
+
+.wing-checkbox [type="checkbox"]:disabled + label {
+  color: #aaa;
+}
+
+.popup-wrap {
+    position: fixed;
+    top: 0;
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 200%;
+    z-index: 1001;
+    @include transition(all 0.4s ease);
+    @include transform(scale(0));
+    visibility: hidden;
+    opacity: 0;
+
+    @include breakpoint(tablet2) {
+        background: #fff;
+    }
+
+    &.active {
+        visibility: visible;
+        @include transform(scale(1));
+        opacity: 1;
+    }
+
+    .popup-content {
+        background: $coWhite;
+        max-width: 800px;
+        padding: 0px 0px 20px;
+        margin: 30px auto 0;
+        position: relative;
+
+        @include breakpoint(tablet2) {
+            margin-top: 0;
+        }
+
+        a.closepop {
+            color: $coWhite;
+            position: absolute;
+            top: 0;
+            right: 0;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 10px;
+            display: inline-block;
+        }
+
+        h4 {
+            background: $coGreen;
+            padding: 8px 20px;
+            color: $coWhite;
+            font-weight: 400;
+            font-size: 26px;
+        }
+
+        h6 {
+            font-size: 16px;
+            padding-top: 25px;
+            padding-bottom: 0;
+        }
+
+        ul {
+            padding-bottom: 15px;
+            padding-top: 15px;
+
+            li {
+                position: relative;
+                padding-left: 15px;
+
+                &:before {
+                    content:'';
+                    width: 6px;
+                    height: 6px;
+                    border-radius: 50%;
+                    background: $coGreen;
+                    position: absolute;
+                    top: 9px;
+                    left: 0;
+                }
+            }
+        }
+
+        p {
+            padding-top: 15px;
+        }
+
+    }
+
+    .popup-content-text {
+        padding: 0px 20px 20px;
+        max-height: 400px;
+        position: relative;
+        overflow: auto;
+        margin: 15px 0;
+
+        &:after {
+            content:'';
+            background: rgba($coWhite, 0.5);
+            height: 40px;
+            position: absolute;
+
+        }
+    }
+}
+
+
+@-webkit-keyframes pulse {
+  0%, 100%, 80% {
+    opacity: 0; }
+  40% {
+    opacity: 1; } }
+
+@-moz-keyframes pulse {
+  0%, 100%, 80% {
+    opacity: 0; }
+  40% {
+    opacity: 1; } }
+
+@keyframes pulse {
+  0%, 100%, 80% {
+    opacity: 0; }
+  40% {
+    opacity: 1; } }
+
 @-webkit-keyframes animArrow {
     0%, 100% {
         -webkit-transform: scale(1) translate3d(0, 0, 0);
@@ -1892,7 +2322,8 @@ button.ui-button::-moz-focus-inner {
 }
 .ui-datepicker .ui-datepicker-header {
     position: relative;
-    padding: .2em 0;
+    padding: 5px 0;
+    background: $coGreen;
 }
 .ui-datepicker .ui-datepicker-prev,
 .ui-datepicker .ui-datepicker-next {
@@ -1933,7 +2364,7 @@ button.ui-button::-moz-focus-inner {
 }
 .ui-datepicker .ui-datepicker-title select {
     font-size: 1em;
-    margin: 1px 0;
+    margin: 1px 3px;
 }
 .ui-datepicker select.ui-datepicker-month,
 .ui-datepicker select.ui-datepicker-year {
@@ -2472,7 +2903,8 @@ body .ui-tooltip {
     font-size: 1em;
 }
 .ui-widget.ui-widget-content {
-    border: 1px solid #c5c5c5;
+    border: 0px solid transparent;
+    margin-left: 25px;
 }
 .ui-widget-content {
     border: 1px solid #dddddd;
@@ -2483,7 +2915,7 @@ body .ui-tooltip {
     color: #333333;
 }
 .ui-widget-header {
-    border: 1px solid #dddddd;
+    border: none;
     background: #e9e9e9;
     color: #333333;
     font-weight: bold;

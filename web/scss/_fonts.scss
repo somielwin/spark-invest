@@ -87,6 +87,13 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+.icon-Check:before {
+  content: "\e915";
+}
+.icon-X:before {
+  content: "\e916";
+}
 .icon-Trave-Stroke:before {
   content: "\e90f";
 }
@@ -150,6 +157,71 @@
 .icon-SparkYourGoal:before {
   content: "\e90e";
 }
+/*
+.icon-Trave-Stroke:before {
+  content: "\e90f";
+}
+.icon-Car-Stroke:before {
+  content: "\e910";
+}
+.icon-Life-Evenet-Stroke:before {
+  content: "\e911";
+}
+.icon-Education-Stroke:before {
+  content: "\e912";
+}
+.icon-House-Stroke:before {
+  content: "\e913";
+}
+.icon-General-Need-Stroke:before {
+  content: "\e914";
+}
+.icon-DropDownArrow:before {
+  content: "\e900";
+}
+.icon-Travel:before {
+  content: "\e901";
+}
+.icon-Car:before {
+  content: "\e902";
+}
+.icon-Life-Evenet:before {
+  content: "\e903";
+}
+.icon-Education:before {
+  content: "\e904";
+}
+.icon-House:before {
+  content: "\e905";
+}
+.icon-General-Need:before {
+  content: "\e906";
+}
+.icon-calendar:before {
+  content: "\e907";
+}
+.icon-CreateAnAccount:before {
+  content: "\e908";
+}
+.icon-invest:before {
+  content: "\e909";
+}
+.icon-left-arrow:before {
+  content: "\e90a";
+}
+.icon-PayOnline:before {
+  content: "\e90b";
+}
+.icon-Phone:before {
+  content: "\e90c";
+}
+.icon-right-arrow:before {
+  content: "\e90d";
+}
+.icon-SparkYourGoal:before {
+  content: "\e90e";
+}*/
+
 /*
 @font-face {
   font-family: 'icomoon';
