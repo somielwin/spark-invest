@@ -344,10 +344,7 @@
 									<p>(Minimum of PhP 5,000)</p>
 								</div>
 
-								<div class="wing-checkbox terms-condi-wrap">
-                                    <input type="checkbox" id="terms-checkbox"/>
-                                    <label for="terms-checkbox">I accept these <a href="#" id="terms-btn" style="color: #00adef;">terms &amp; conditions.</a></label>
-                                </div>
+								
 								<div class="text-center animated hiding" data-animation="fadeInUp">
 									<input type="submit" name="" value="Spark my Goal!" class="btn btn-green">
 								</div>
@@ -431,6 +428,10 @@
 						            </div>
 							</div>
 							<div class="clr"></div>
+							<div class="wing-checkbox terms-condi-wrap">
+                                <input type="checkbox" id="terms-checkbox"/>
+                                <label for="terms-checkbox">I accept these <a href="#" id="terms-btn" style="color:#01344a;">terms &amp; conditions.</a></label>
+                            </div>
 							<div class="input-wrap">
 								<input class="btn" type="submit" name="" value="I'm In!">
 							</div>
