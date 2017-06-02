@@ -21,7 +21,7 @@
 	<div class="popup-wrap">
 		<div class="popup-content">
 			<a href="#" class="closepop"><span class="spark-icon icon-X"></span></a>
-			<h4>Terms &amp; Condition</h4>
+			<h4>Terms &amp; Conditions</h4>
 			<div class="popup-content-text">
 				<h6>Introduction</h6>
 				<p>These Website Standard Terms and Conditions written on this webpage shall manage your use of this website. These Terms will be applied fully and affect to your use of this Website. By using this Website, you agreed to accept all terms and conditions written in here. You must not use this Website if you disagree with any of these Website Standard Terms and Conditions.</p>
