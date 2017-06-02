@@ -781,7 +781,7 @@ body {
 
         @include breakpoint(tablet2) {
             font-size: 12px;
-            
+
         }
     }
 }
@@ -1669,7 +1669,7 @@ body {
         a.closepop {
             color: $coWhite;
             position: absolute;
-            top: 0;
+            top: 6px;
             right: 0;
             text-decoration: none;
             font-size: 18px;

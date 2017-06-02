@@ -5296,7 +5296,7 @@ body.windows {
 .popup-wrap .popup-content a.closepop {
   color: #ffffff;
   position: absolute;
-  top: 0;
+  top: 6px;
   right: 0;
   text-decoration: none;
   font-size: 18px;
