@@ -80,6 +80,11 @@ body {
     -moz-appearance: none;
     appearance: none;
 
+    span {
+        display: inline-block;
+        vertical-align: top;
+        margin: 0 5px;
+    }
 
     &.btn-green {
         background: #77c845;
@@ -1453,6 +1458,9 @@ body {
 .wing-checkbox {
     padding: 15px 0 0;
     text-align: center;
+    clear: both;
+    float: none;
+    margin-bottom: 15px;
 
     a {
         color: $coGreen;
@@ -1460,6 +1468,15 @@ body {
     }
 }
 
+#mce-responses, #mce-error-response  {
+    clear: both;
+    font-size: 18px;
+}
+
+#mce-error-response a {
+    text-decoration: none;
+    color: #01344a;
+}
 
 
 .loading-spinner-wrapper {
@@ -1735,6 +1752,29 @@ body {
     }
 }
 
+
+#mc_embed_signup input.mce_inline_error {
+    border: 2px solid #fff !important;
+    border-bottom: 2px solid #792e2e !important;
+}
+
+
+#mc_embed_signup div.mce_inline_error {
+    text-align: left;
+    color: #792e2e !important;
+    font-size: 12px;
+    font-style: italic;
+    background: transparent !important;
+    font-weight: 400 !important;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    position: absolute;
+    left: 0;
+    margin-bottom: 0 !important;
+    margin-top: 3px !important;
+    padding: 0 !important;
+    top: 100%;
+}
 
 @-webkit-keyframes pulse {
   0%, 100%, 80% {

@@ -412,7 +412,48 @@
 					</div>
 					<div class="sign-up-wrap animated hiding" data-animation="fadeInUp">
 						<h3>Be one of the first 500 to try out SparkInvest!</h3>
-						<form id="subscribeNewsletter" method="post" action="" novalidate="">
+
+						<!-- Begin MailChimp Signup Form -->
+
+						<!-- Begin MailChimp Signup Form -->
+						<div id="mc_embed_signup">
+						<form action="//facebook.us16.list-manage.com/subscribe/post?u=539c4227d07f536f12b9f9329&amp;id=b0202ecd1a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+						    <div id="mc_embed_signup_scroll">
+							
+						<div class="mc-field-group input-wrap half">
+							<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" required="required" onchange="this.setAttribute('value', this.value);"> 
+							<label for="mce-EMAIL">Email Address *</label>
+						</div>
+						<div class="mc-field-group input-wrap half">
+							<input type="text" value="" name="FNAME" class="" id="mce-FNAME" required="required" onchange="this.setAttribute('value', this.value);">
+							<label for="mce-FNAME">First Name </label>
+						</div>
+							<div id="mce-responses " class="clear">
+								<div class="response" id="mce-error-response" style="display:none"></div>
+								<div class="response" id="mce-success-response" style="display:none"></div>
+							</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+						    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_539c4227d07f536f12b9f9329_b0202ecd1a" tabindex="-1" value=""></div>
+
+						    <div class="wing-checkbox terms-condi-wrap">
+                                <input type="checkbox" id="terms-checkbox"/>
+                                <label for="terms-checkbox">I accept these <a href="#" id="terms-btn" style="color:#01344a;">terms &amp; conditions.</a></label>
+                            </div>
+
+						    <div class="clear input-wrap"><input type="submit" value="I'm In" name="subscribe" id="mc-embedded-subscribe" class="btn button is-disabled">
+						    	<div class="required-field">
+						    		<p class="text-center" style="text-align: center;">"Please check our terms and conditions"</p>
+						    	</div>
+						   	</div>
+						    </div>
+						</form>
+						</div>
+						<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+						<!--End mc_embed_signup-->
+						
+						
+
+						<!--End mc_embed_signup-->
+						<!-- <form id="subscribeNewsletter" method="post" action="" novalidate="">
 							<div class="input-wrap half">
 								<input type="text" id="first-name" name="fname" value="" maxLength="20" required="required" onchange="this.setAttribute('value', this.value);">
 						            <label for="first-name">Enter Name</label>
@@ -435,7 +476,7 @@
 							<div class="input-wrap">
 								<input class="btn" type="submit" name="" value="I'm In!">
 							</div>
-						</form>
+						</form> -->
 					</div>
 					
 				</div>

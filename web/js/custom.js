@@ -418,31 +418,59 @@ $(document).ready(function() {
         
     });
 
-    $('#subscribeNewsletter').submit(function(){
-    	$('#subscribeNewsletter .input-wrap:not(.no-error)').addClass('error');
-        isvalidate = false;
+    // $('#subscribeNewsletter').submit(function(){
+    // 	$('#subscribeNewsletter .input-wrap:not(.no-error)').addClass('error');
+    //     isvalidate = false;
 
-        if( IsEmail($('#account-email').val() )) {
-            $('#account-email').closest('.input-wrap').removeClass('error');
-            isvalidate = true;
-        } else {
-            isvalidate = false;
-        }
+    //     if( IsEmail($('#account-email').val() )) {
+    //         $('#account-email').closest('.input-wrap').removeClass('error');
+    //         isvalidate = true;
+    //     } else {
+    //         isvalidate = false;
+    //     }
 
-        if( !$('#first-name').val() == '' ) {
-            $('#first-name').closest('.input-wrap').removeClass('error');
-            isvalidate = true;
-        } else {
-            isvalidate = false;
-        }
+    //     if( !$('#first-name').val() == '' ) {
+    //         $('#first-name').closest('.input-wrap').removeClass('error');
+    //         isvalidate = true;
+    //     } else {
+    //         isvalidate = false;
+    //     }
 
-        if(!$('#account-email').val() == '' && !$('#first-name').val() == '' ) {
-        	//console.log('submitted');
-        	return true;
+    //     if(!$('#account-email').val() == '' && !$('#first-name').val() == '' ) {
+    //     	//console.log('submitted');
+    //     	return true;
         	
+    //     } else {
+    //     	return false;
+    //     }
+    // });
+
+    $(document).on('click', '#mc-embedded-subscribe', function(){
+    	
+    	//console.log('error');
+    	if($(this).hasClass('is-disabled')) {
+    		$(this).closest('.input-wrap:not(.no-error)').addClass('error');
+    		return false;
+    	} else {
+    		console.log('test');
+    		// $('#mc_embed_signup_scroll .input-wrap').hide();
+    		$('#mc_embed_signup_scroll .wing-checkbox').hide();
+    		return true;
+    	}
+    });
+
+    $('#terms-checkbox').change(function(){
+
+        //$('.fill-up-correctly').removeClass('is-open');
+
+        if( $('#terms-checkbox').is(':checked')) {
+            $('#mc-embedded-subscribe').removeClass('is-disabled');
+            $('.clear.input-wrap').removeClass('error');
+
         } else {
-        	return false;
+            $('#mc-embedded-subscribe').addClass('is-disabled');
         }
+
     });
 
     $('.closepop').click(function(e){
