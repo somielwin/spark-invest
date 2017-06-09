@@ -340,81 +340,82 @@ $(document).ready(function() {
 	$('#sparkForm').submit(function(e){
 		e.preventDefault();
 
-        $('#sparkForm .input-wrap:not(.no-error)').addClass('error');
-        isvalidate = false;
+		$('html, body').animate({ scrollTop: $("#slot-wrap").offset().top } , 700);
+  //       $('#sparkForm .input-wrap:not(.no-error)').addClass('error');
+  //       isvalidate = false;
 
-        if(!$('#invest').val() == '' ) {
-        	$('#invest').closest('.input-wrap').removeClass('error');
+  //       if(!$('#invest').val() == '' ) {
+  //       	$('#invest').closest('.input-wrap').removeClass('error');
         
-        	var max = parseFloat($('#invest').val().replace(',', ''));
+  //       	var max = parseFloat($('#invest').val().replace(',', ''));
 
-        	if ( max >= 5000 ) {
-				$('#invest').closest('.input-wrap').removeClass('error-minimum');
-				isvalidate = true;
-        	} else {
-				$('#invest').closest('.input-wrap').addClass('error-minimum');
-				isvalidate = false;
-        	}
-        } else {
-        	isvalidate = false;
-        }
+  //       	if ( max >= 5000 ) {
+		// 		$('#invest').closest('.input-wrap').removeClass('error-minimum');
+		// 		isvalidate = true;
+  //       	} else {
+		// 		$('#invest').closest('.input-wrap').addClass('error-minimum');
+		// 		isvalidate = false;
+  //       	}
+  //       } else {
+  //       	isvalidate = false;
+  //       }
 
-        if( optItem != '') {
-        	$('.options-carousel .input-wrap').removeClass('error');
-        	isvalidate = true;
-        } else {
-        	isvalidate = false;
-        }
+  //       if( optItem != '') {
+  //       	$('.options-carousel .input-wrap').removeClass('error');
+  //       	isvalidate = true;
+  //       } else {
+  //       	isvalidate = false;
+  //       }
 
-        if(!$('#datepicker').val() == '') {
-        	$('#datepicker').closest('.input-wrap').removeClass('error');
-        	isvalidate = true;
-        } else {
-			isvalidate = false;
-		}        
+  //       if(!$('#datepicker').val() == '') {
+  //       	$('#datepicker').closest('.input-wrap').removeClass('error');
+  //       	isvalidate = true;
+  //       } else {
+		// 	isvalidate = false;
+		// }        
 
-        if(!$('#how-need').val() == '') {
-        	$('#how-need').closest('.input-wrap').removeClass('error');
-        	isvalidate = true;
-        } else {
-        	isvalidate = false;
-        }
+  //       if(!$('#how-need').val() == '') {
+  //       	$('#how-need').closest('.input-wrap').removeClass('error');
+  //       	isvalidate = true;
+  //       } else {
+  //       	isvalidate = false;
+  //       }
 
-        if(!$('.opt-carousel.active .goal-options').val() == '') {
-        	$('.opt-carousel.active .goal-options').closest('.input-wrap').removeClass('error');
-        	isvalidate = true;
-        } else {
-        	isvalidate = false;
-        }
+  //       if(!$('.opt-carousel.active .goal-options').val() == '') {
+  //       	$('.opt-carousel.active .goal-options').closest('.input-wrap').removeClass('error');
+  //       	isvalidate = true;
+  //       } else {
+  //       	isvalidate = false;
+  //       }
 
-        if(!$('#invest').val() == '' && !$('#how-need').val() == ''  && optItem != '' && !$('.opt-carousel.active .goal-options').val() == '') {
-        	$('.loading-spinner-wrapper').addClass('active');
-        	var target = $('#how-need').val();
-        	var invest = $('#invest').val();
-        	var when = $('#datepicker').val();
-        	var want = $('.opt-carousel.active .goal-options').val();
-        	console.log(target);
-        	console.log(invest);
-        	console.log(want);
-        	console.log(when);
+  //       if(!$('#invest').val() == '' && !$('#how-need').val() == ''  && optItem != '' && !$('.opt-carousel.active .goal-options').val() == '') {
+  //       	$('.loading-spinner-wrapper').addClass('active');
+  //       	var target = $('#how-need').val();
+  //       	var invest = $('#invest').val();
+  //       	var when = $('#datepicker').val();
+  //       	var want = $('.opt-carousel.active .goal-options').val();
+  //       	console.log(target);
+  //       	console.log(invest);
+  //       	console.log(want);
+  //       	console.log(when);
 
-        	$('.reciept-what-item p').html(want);
-        	$('.reciept-what-item .sec-head-icon').html(dataWant);
-        	$('.reciept-when p').html(when);
-        	$('.reciept-cost p span').html(invest);
-        	$('.reciept-target-item p span').html(target);
+  //       	$('.reciept-what-item p').html(want);
+  //       	$('.reciept-what-item .sec-head-icon').html(dataWant);
+  //       	$('.reciept-when p').html(when);
+  //       	$('.reciept-cost p span').html(invest);
+  //       	$('.reciept-target-item p span').html(target);
 
-        	setTimeout(function(){
-        		$('html, body').animate({ scrollTop: "0" } , 700);
-        		$('.pf-item1, .reciept-hidden').css({'display' : 'none', 'visibility' : 'hidden'});
-        		$('.pf-item2').css({'display' : 'block'});
-        	}, 1000);
+  //       	setTimeout(function(){
+  //       		$('html, body').animate({ scrollTop: "0" } , 700);
+  //       		$('.pf-item1, .reciept-hidden').css({'display' : 'none', 'visibility' : 'hidden'});
+  //       		$('.pf-item2').css({'display' : 'block'});
+  //       	}, 1000);
 
         	
 
-        } else {
-        	return false;
-        }
+  //       } else {
+  //       	return false;
+  //       }
         
     });
 

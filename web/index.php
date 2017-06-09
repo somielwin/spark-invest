@@ -371,7 +371,7 @@
 						<h3>Like what you see? <br> Sign up and get first dibs!</h3>
 						
 					</div>
-					<div class="slot-wrap animated hiding" data-animation="zoomIn" >
+					<div id="slot-wrap" class="slot-wrap animated hiding" data-animation="zoomIn" >
 						<div class="slot-available">
 							<h2>39 <span>Slots Left!</span></h2>
 						</div>
@@ -391,7 +391,7 @@
 							<label for="mce-EMAIL">Email Address *</label>
 						</div>
 						<div class="mc-field-group input-wrap half">
-							<input type="text" value="" name="FNAME" class="" id="mce-FNAME"  onchange="this.setAttribute('value', this.value);">
+							<input type="text" value="" name="FNAME" class="" id="mce-FNAME" required="required"  onchange="this.setAttribute('value', this.value);">
 							<label for="mce-FNAME">First Name </label>
 						</div>
 							<div id="mce-responses " class="clear">
