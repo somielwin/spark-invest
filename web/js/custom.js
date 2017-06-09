@@ -405,7 +405,7 @@ $(document).ready(function() {
         	$('.reciept-target-item p span').html(target);
 
         	setTimeout(function(){
-        		$('html, body').animate({ scrollTop: "0" } , 600);
+        		$('html, body').animate({ scrollTop: "0" } , 700);
         		$('.pf-item1, .reciept-hidden').css({'display' : 'none', 'visibility' : 'hidden'});
         		$('.pf-item2').css({'display' : 'block'});
         	}, 1000);

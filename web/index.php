@@ -194,205 +194,170 @@
 			</div>
 		</section>
 
-		<section id="" class="sec-pad null-bot null-top">
+		<section id="" class="sec-pad null-bot null-top pf-item1">
 			<div class="preview-form">
-				<div class="pf-item1">
-					<div class="container">
-						<div class="sec-header animated hiding" data-animation="fadeInUp">
-							<span class="sec-head-icon"><span class="spark-icon icon-Phone"></span></span>
-							<h2>Here's a preview of what <br>SparkInvest can do.</h2>
-							<p>It'll just take a minute to try it out.</p>
-						</div>
-
-						<div class="form-wrapper" id="sparkForm">
-							<form method="post" action="">
-								<div class="options-wrap options-carousel animated hiding" data-animation="fadeInUp">
-									<span class="sec-head-icon"><span class="spark-icon icon-SparkYourGoal"></span></span>
-									<h3>What I Want:</h3>
-									<p>Pick One</p>
-									<div class="want-options owl-carousel owl-theme">
-										<div class="item">
-											<div class="type-item">
-												<a href="#travel-opt">
-													<div class="type-img"><span class="spark-icon icon-Travel"></span></div>
-													<p><strong>Travel</strong></p>
-												</a>
-											</div>
-										</div>
-										<div class="item">
-											<div class="type-item">
-												<a href="#car-opt">
-													<div class="type-img"><span class="spark-icon icon-Car"></span></div>
-													<p><strong>Car</strong></p>
-												</a>
-											</div>
-										</div>
-										<div class="item">
-											<div class="type-item">
-												<a href="#life-opt">
-													<div class="type-img"><span class="spark-icon icon-Life-Evenet"></span></div>
-													<p><strong>Life Event</strong></p>
-												</a>
-											</div>
-										</div>
-										<div class="item">
-											<div class="type-item">
-												<a href="#educ-opt">
-													<div class="type-img"><span class="spark-icon icon-Education"></span></div>
-													<p><strong>Education</strong></p>
-												</a>
-											</div>
-										</div>
-										<div class="item">
-											<div class="type-item">
-												<a href="#house-opt">
-													<div class="type-img"><span class="spark-icon icon-House"></span></div>
-													<p><strong>House</strong></p>
-												</a>
-											</div>
-										</div>
-										<div class="item">
-											<div class="type-item">
-												<a href="#general-opt">
-													<div class="type-img"><span class="spark-icon icon-General-Need"></span></div>
-													<p><strong>General Needs</strong></p>
-												</a>
-											</div>
-										</div>
-									</div>
-									<div class="input-wrap">
-										<div class="required-field"><p>Please pick what you want.</p></div>
-									</div>
-								</div>
-								<div id="travel-opt" class="options-wrap opt-carousel">
-									<span class="sec-head-icon"><span class="spark-icon icon-Trave-Stroke"></span></span>
-									<h3>Where To?</h3>
-									<div class="input-wrap small">
-										<input class="goal-options" type="text" name="" onchange="this.setAttribute('value', this.value);" placeholder="Type your destination here" value="">
-										<div class="required-field"><p>Please complete this field.</p></div>
-									</div>
-								</div>
-								<div id="car-opt" class="options-wrap opt-carousel">
-									<span class="sec-head-icon"><span class="spark-icon icon-Car-Stroke"></span></span>
-									<h3>What Model?</h3>
-									<div class="input-wrap small">
-										<input class="goal-options" type="text" name="" onchange="this.setAttribute('value', this.value);" placeholder="Type the model here" value="">
-										<div class="required-field"><p>Please complete this field.</p></div>
-									</div>
-								</div>
-								<div id="life-opt" class="options-wrap opt-carousel">
-									<span class="sec-head-icon"><span class="spark-icon icon-Life-Evenet-Stroke"></span></span>
-									<h3>What's Happening?</h3>
-									<div class="input-wrap small">
-										<input class="goal-options" type="text" name="" onchange="this.setAttribute('value', this.value);" placeholder="Type your event here" value="">
-										<div class="required-field"><p>Please complete this field.</p></div>
-									</div>
-								</div>
-								<div id="educ-opt" class="options-wrap opt-carousel">
-									<span class="sec-head-icon"><span class="spark-icon icon-Education-Stroke"></span></span>
-									<h3>What's The Target?</h3>
-									<div class="input-wrap small">
-										<input class="goal-options" type="text" name="" onchange="this.setAttribute('value', this.value);" placeholder="Type your target here" value="" readonly>
-										<div class="required-field"><p>Please complete this field.</p></div>
-									</div>
-
-								</div>
-								<div id="house-opt" class="options-wrap opt-carousel">
-									<span class="sec-head-icon"><span class="spark-icon icon-House-Stroke"></span></span>
-									<h3>What's The Address?</h3>
-									<div class="input-wrap small">
-										<input class="goal-options" type="text" name="" onchange="this.setAttribute('value', this.value);" placeholder="Type the address here" value="">
-										<div class="required-field"><p>Please complete this field.</p></div>
-									</div>
-									
-								</div>
-								<div id="general-opt" class="options-wrap opt-carousel">
-									<span class="sec-head-icon"><span class="spark-icon icon-General-Need-Stroke"></span></span>
-									<h3>What's Your Goal?</h3>
-									<div class="input-wrap small">
-										<input class="goal-options" type="text" name="" onchange="this.setAttribute('value', this.value);" placeholder="Type your goal here" value="">
-										<div class="required-field"><p>Please complete this field.</p></div>
-									</div>
-									
-								</div>
-
-								<div class="options-wrap animated hiding" data-animation="fadeInUp">
-									<span class="sec-head-icon"><span class="spark-icon icon-Life-Evenet-Stroke"></span></span>
-									<h3>When I Want It</h3>
-									<div class="input-wrap small">
-										<input type="text" name="" onchange="this.setAttribute('value', this.value);" id="datepicker" placeholder="Choose When" value="" readonly>
-										<div class="required-field"><p>Please complete this field.</p></div>
-									</div>
-								</div>
-
-								<div class="options-wrap animated hiding" data-animation="fadeInUp">
-									<span class="sec-head-icon"><span class="spark-icon icon-PayOnline"></span></span>
-									<h3>How Much I Need:</h3>
-									<div class="input-wrap small">
-										<input id="how-need" type="tel" name="" class="number-field" onkeypress="return event.charCode >= 48 && event.charCode <= 57" onchange="this.setAttribute('value', this.value);" placeholder="Type here" value="">
-										<div class="required-field"><p>Please complete this field.</p></div>
-									</div>
-								</div>
-								<div class="options-wrap opt-invest animated hiding" data-animation="fadeInUp">
-									<span class="sec-head-icon"><span class="spark-icon icon-invest"></span></span>
-									<h3>How Much I Can Invest:</h3>
-									<div class="input-wrap small">
-										<input id="invest" type="tel" name="" class="number-field" onkeypress="return event.charCode >= 48 && event.charCode <= 57" onchange="this.setAttribute('value', this.value);" placeholder="Choose how much per month" value="">
-										<div class="required-field"><p>Please complete this field.</p></div>
-										<div class="required-field minimum"><p>Please input greater than 5,000</p></div>
-									</div>
-									<p>(Minimum of PhP 5,000)</p>
-								</div>
-
-								
-								<div class="text-center animated hiding" data-animation="fadeInUp">
-									<input type="submit" name="" value="Spark my Goal!" class="btn btn-green">
-								</div>
-
-								<div class="loading-spinner-wrapper" id="app-loader">
-                                    <span class="loading-spinner">
-                                      <i class="one"></i>
-                                      <i class="two"></i>
-                                      <i class="three"></i>
-                                    </span>
-                                </div>
-							</form>
-						</div>						
+				<div class="container">
+					<div class="sec-header animated hiding" data-animation="fadeInUp">
+						<span class="sec-head-icon"><span class="spark-icon icon-Phone"></span></span>
+						<h2>Here's a sneak peek <br>of SparkInvest</h2>
+						<!-- <p>It'll just take a minute to try it out.</p> -->
 					</div>
-				</div>
-				<div class="pf-item2" style="display:none;">
-					<div class="container">
-						<div class="sec-header animated hiding" data-animation="fadeInUp">
-							<h2>Awesome <br>Your Investment Plan <br>Is Ready.</h2>
-						</div>
 
-						<div class="form-wrapper" id="sparkReciept">
-							<div class="options-wrap reciept-what">
-								<div class="reciept-what-item">
-									<span class="sec-head-icon"><span class="spark-icon icon-SparkYourGoal"></span></span>
-									<p>Travel to Hawaii Travel to Hawai Travel to Hawai</p>
+					<div class="form-wrapper" id="sparkForm">
+						<form method="post" action="">
+							<div class="options-wrap options-carousel animated hiding" data-animation="fadeInUp">
+								<span class="sec-head-icon"><span class="spark-icon icon-SparkYourGoal"></span></span>
+								<h3>What I Want:</h3>
+								<p>Pick One</p>
+								<div class="want-options owl-carousel owl-theme">
+									<div class="item">
+										<div class="type-item">
+											<a href="#travel-opt">
+												<div class="type-img"><span class="spark-icon icon-Travel"></span></div>
+												<p><strong>Travel</strong></p>
+											</a>
+										</div>
+									</div>
+									<div class="item">
+										<div class="type-item">
+											<a href="#car-opt">
+												<div class="type-img"><span class="spark-icon icon-Car"></span></div>
+												<p><strong>Car</strong></p>
+											</a>
+										</div>
+									</div>
+									<div class="item">
+										<div class="type-item">
+											<a href="#life-opt">
+												<div class="type-img"><span class="spark-icon icon-Life-Evenet"></span></div>
+												<p><strong>Life Event</strong></p>
+											</a>
+										</div>
+									</div>
+									<div class="item">
+										<div class="type-item">
+											<a href="#educ-opt">
+												<div class="type-img"><span class="spark-icon icon-Education"></span></div>
+												<p><strong>Education</strong></p>
+											</a>
+										</div>
+									</div>
+									<div class="item">
+										<div class="type-item">
+											<a href="#house-opt">
+												<div class="type-img"><span class="spark-icon icon-House"></span></div>
+												<p><strong>House</strong></p>
+											</a>
+										</div>
+									</div>
+									<div class="item">
+										<div class="type-item">
+											<a href="#general-opt">
+												<div class="type-img"><span class="spark-icon icon-General-Need"></span></div>
+												<p><strong>General Needs</strong></p>
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="input-wrap">
+									<div class="required-field"><p>Please pick what you want.</p></div>
 								</div>
 							</div>
-							<div class="options-wrap reciept-when">
+							<div id="travel-opt" class="options-wrap opt-carousel">
+								<span class="sec-head-icon"><span class="spark-icon icon-Trave-Stroke"></span></span>
+								<h3>Where To?</h3>
+								<div class="input-wrap small">
+									<input class="goal-options" type="text" name="" onchange="this.setAttribute('value', this.value);" placeholder="Type your destination here" value="">
+									<div class="required-field"><p>Please complete this field.</p></div>
+								</div>
+							</div>
+							<div id="car-opt" class="options-wrap opt-carousel">
+								<span class="sec-head-icon"><span class="spark-icon icon-Car-Stroke"></span></span>
+								<h3>What Model?</h3>
+								<div class="input-wrap small">
+									<input class="goal-options" type="text" name="" onchange="this.setAttribute('value', this.value);" placeholder="Type the model here" value="">
+									<div class="required-field"><p>Please complete this field.</p></div>
+								</div>
+							</div>
+							<div id="life-opt" class="options-wrap opt-carousel">
 								<span class="sec-head-icon"><span class="spark-icon icon-Life-Evenet-Stroke"></span></span>
-								<label>I want it in:</label>
-								<p>1 Year &amp; 2 months</p>
-							</div>
-							<div class="options-wrap reciept-cost">
-								<span class="sec-head-icon"><span class="spark-icon icon-invest"></span></span>
-								<label>I will invest:</label>
-								<p>Php <span>5,000</span> / Month</p>
-							</div>
-							<div class="options-wrap reciept-target">
-								<div class="reciept-target-item">
-									<span class="sec-head-icon"><span class="spark-icon icon-PayOnline"></span></span>
-									<label>The Target</label>
-									<p>PhP <span>90, 000</span></p>
+								<h3>What's Happening?</h3>
+								<div class="input-wrap small">
+									<input class="goal-options" type="text" name="" onchange="this.setAttribute('value', this.value);" placeholder="Type your event here" value="">
+									<div class="required-field"><p>Please complete this field.</p></div>
 								</div>
 							</div>
-						</div>
-					</div>
+							<div id="educ-opt" class="options-wrap opt-carousel">
+								<span class="sec-head-icon"><span class="spark-icon icon-Education-Stroke"></span></span>
+								<h3>What's The Target?</h3>
+								<div class="input-wrap small">
+									<input class="goal-options" type="text" name="" onchange="this.setAttribute('value', this.value);" placeholder="Type your target here" value="" readonly>
+									<div class="required-field"><p>Please complete this field.</p></div>
+								</div>
+
+							</div>
+							<div id="house-opt" class="options-wrap opt-carousel">
+								<span class="sec-head-icon"><span class="spark-icon icon-House-Stroke"></span></span>
+								<h3>What's The Address?</h3>
+								<div class="input-wrap small">
+									<input class="goal-options" type="text" name="" onchange="this.setAttribute('value', this.value);" placeholder="Type the address here" value="">
+									<div class="required-field"><p>Please complete this field.</p></div>
+								</div>
+								
+							</div>
+							<div id="general-opt" class="options-wrap opt-carousel">
+								<span class="sec-head-icon"><span class="spark-icon icon-General-Need-Stroke"></span></span>
+								<h3>What's Your Goal?</h3>
+								<div class="input-wrap small">
+									<input class="goal-options" type="text" name="" onchange="this.setAttribute('value', this.value);" placeholder="Type your goal here" value="">
+									<div class="required-field"><p>Please complete this field.</p></div>
+								</div>
+								
+							</div>
+
+							<div class="options-wrap animated hiding" data-animation="fadeInUp">
+								<span class="sec-head-icon"><span class="spark-icon icon-Life-Evenet-Stroke"></span></span>
+								<h3>When I Want It</h3>
+								<div class="input-wrap small">
+									<input type="text" name="" onchange="this.setAttribute('value', this.value);" id="datepicker" placeholder="Choose When" value="" readonly>
+									<div class="required-field"><p>Please complete this field.</p></div>
+								</div>
+							</div>
+
+							<div class="options-wrap animated hiding" data-animation="fadeInUp">
+								<span class="sec-head-icon"><span class="spark-icon icon-PayOnline"></span></span>
+								<h3>How Much I Need:</h3>
+								<div class="input-wrap small">
+									<input id="how-need" type="tel" name="" class="number-field" onkeypress="return event.charCode >= 48 && event.charCode <= 57" onchange="this.setAttribute('value', this.value);" placeholder="Type here" value="">
+									<div class="required-field"><p>Please complete this field.</p></div>
+								</div>
+							</div>
+							<div class="options-wrap opt-invest animated hiding" data-animation="fadeInUp">
+								<span class="sec-head-icon"><span class="spark-icon icon-invest"></span></span>
+								<h3>How Much I Can Invest:</h3>
+								<div class="input-wrap small">
+									<input id="invest" type="tel" name="" class="number-field" onkeypress="return event.charCode >= 48 && event.charCode <= 57" onchange="this.setAttribute('value', this.value);" placeholder="Choose how much per month" value="">
+									<div class="required-field"><p>Please complete this field.</p></div>
+									<div class="required-field minimum"><p>Please input greater than 5,000</p></div>
+								</div>
+								<p>(Minimum of PhP 5,000)</p>
+							</div>
+
+							<div class="text-center animated hiding" data-animation="fadeInUp">
+								<input type="submit" name="" value="Spark my Goal!" class="btn btn-green">
+							</div>
+
+							<div class="loading-spinner-wrapper" id="app-loader">
+                                <span class="loading-spinner">
+                                  <i class="one"></i>
+                                  <i class="two"></i>
+                                  <i class="three"></i>
+                                </span>
+                            </div>
+						</form>
+					</div>						
 				</div>
+				
 			</div>
 
 		</section>
@@ -401,13 +366,14 @@
 		<section id="" class="sec-pad bg-grey">
 			<div class="container">
 				<div class="bet-wrap">
-					<div class="animated hiding" data-animation="fadeInUp">
+					<div class="animated hiding pf-item1" data-animation="fadeInUp">
 						<div class="icon-logo animated hiding" data-animation="zoomIn" data-delay="600"><img src="images/logo-icon.png" alt=""></div>
 						<h3>Like what you see? <br> Sign up and get first dibs!</h3>
-						<div class="slot-wrap animated hiding" data-animation="zoomIn" >
-							<div class="slot-available">
-								<h2>39 <span>Slots Left!</span></h2>
-							</div>
+						
+					</div>
+					<div class="slot-wrap animated hiding" data-animation="zoomIn" >
+						<div class="slot-available">
+							<h2>39 <span>Slots Left!</span></h2>
 						</div>
 					</div>
 					<div class="sign-up-wrap animated hiding" data-animation="fadeInUp">
@@ -425,7 +391,7 @@
 							<label for="mce-EMAIL">Email Address *</label>
 						</div>
 						<div class="mc-field-group input-wrap half">
-							<input type="text" value="" name="FNAME" class="" id="mce-FNAME" required="required" onchange="this.setAttribute('value', this.value);">
+							<input type="text" value="" name="FNAME" class="" id="mce-FNAME"  onchange="this.setAttribute('value', this.value);">
 							<label for="mce-FNAME">First Name </label>
 						</div>
 							<div id="mce-responses " class="clear">
@@ -481,6 +447,43 @@
 					
 				</div>
 			</div>
+		</section>
+
+		<section id="" class="sec-pad null-bot null-top pf-item2" style="display:none;">
+			<div class="preview-form">
+				<div class="container">
+					<div class="sec-header animated hiding" data-animation="fadeInUp">
+						<h2>Awesome <br>Your Investment Plan <br>Is Ready.</h2>
+					</div>
+
+					<div class="form-wrapper" id="sparkReciept">
+						<div class="options-wrap reciept-what">
+							<div class="reciept-what-item">
+								<span class="sec-head-icon"><span class="spark-icon icon-SparkYourGoal"></span></span>
+								<p>Travel to Hawaii Travel to Hawai Travel to Hawai</p>
+							</div>
+						</div>
+						<div class="options-wrap reciept-when">
+							<span class="sec-head-icon"><span class="spark-icon icon-Life-Evenet-Stroke"></span></span>
+							<label>I want it in:</label>
+							<p>1 Year &amp; 2 months</p>
+						</div>
+						<div class="options-wrap reciept-cost">
+							<span class="sec-head-icon"><span class="spark-icon icon-invest"></span></span>
+							<label>I will invest:</label>
+							<p>Php <span>5,000</span> / Month</p>
+						</div>
+						<div class="options-wrap reciept-target">
+							<div class="reciept-target-item">
+								<span class="sec-head-icon"><span class="spark-icon icon-PayOnline"></span></span>
+								<label>The Target</label>
+								<p>PhP <span>90, 000</span></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
 		</section>
 	</section>
 </section>

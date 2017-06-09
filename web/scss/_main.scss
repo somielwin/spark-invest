@@ -814,18 +814,18 @@ body {
         border-radius: 6px;
         margin-top: 40px;
         display: inline-block;
-        margin-bottom: 60px;
+        margin-bottom: 20px;
         outline: none;
         cursor: pointer;
 
         @include breakpoint(tablet) {
             margin-top: 30px;
-            margin-bottom: 50px;
+            margin-bottom: 20px;
         }
 
         @include breakpoint(tablet2) {
             margin-top: 30px;
-            margin-bottom: 30px;
+            margin-bottom: 10px;
             line-height: 50px;
         }
 
