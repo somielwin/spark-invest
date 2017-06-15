@@ -430,7 +430,8 @@
 
 						    <div class="wing-checkbox terms-condi-wrap">
                                 <input type="checkbox" id="terms-checkbox"/>
-                                <label for="terms-checkbox">I accept these <a href="#terms-condi" class="terms-btn" style="color:#01344a;">terms &amp; conditions</a> and <a href="#privacy-policy" class="terms-btn" style="color:#01344a;">privacy policy.</a></label>
+                                <label for="terms-checkbox">I have read and accept these <a href="#terms-condi" class="terms-btn" style="color:#01344a;">terms and conditions.</a> <br> I also abide by the <a href="#privacy-policy" class="terms-btn" style="color:#01344a;">privacy policy</a> detailed herein.</label>
+                                <!-- <label for="terms-checkbox">I accept these <a href="#terms-condi" class="terms-btn" style="color:#01344a;">terms &amp; conditions</a> and <a href="#privacy-policy" class="terms-btn" style="color:#01344a;">privacy policy.</a></label> -->
                             </div>
 
 						    <div class="clear input-wrap"><input type="submit" value="I'm In" name="subscribe" id="mc-embedded-subscribe" class="btn button is-disabled">
