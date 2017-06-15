@@ -480,10 +480,12 @@ $(document).ready(function() {
     	$('.popup-wrap').removeClass('active');
     });
 
-    $('#terms-btn').click(function(e){
+    $('.terms-btn').click(function(e){
     	e.preventDefault();
+
+    	var _this = $(this).attr('href');
     	$('body').css({'overflow' : 'hidden'});
-    	$('.popup-wrap').addClass('active');
+    	$(_this).addClass('active');
     });
 });
 

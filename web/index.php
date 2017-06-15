@@ -18,7 +18,7 @@
 </head>
 <body>
 <section id="main-container">
-	<div class="popup-wrap">
+	<div class="popup-wrap" id="terms-condi">
 		<div class="popup-content">
 			<a href="#" class="closepop"><span class="spark-icon icon-X"></span></a>
 			<h4>Terms &amp; Conditions</h4>
@@ -48,7 +48,7 @@
 				<h6>No warranties</h6>
 				<p>This Website is provided “as is,” with all faults, and SparkInvest express no representations or warranties, of any kind related to this Website or the materials contained on this Website. Also, nothing contained on this Website shall be interpreted as advising you.</p>
 				<h6>Limitation of liability</h6>
-				<p>In no event shall SparkInvest, nor any of its officers, directors and employees, shall be held liable for anything arising out of or in any way connected with your use of this Website whether such liability is under contract.  SparkInvest, including its officers, directors and employees shall not be held liable for any indirect, consequential or special liability arising out of or in any way related to your use of this Website.</p>
+				<p>In no event shall SparkInvest, nor any of its officers, directors and employees, shall be held liable for anything arising out of or in any way connected with your use of this Website whether such liability is under contract. SparkInvest, including its officers, directors and employees shall not be held liable for any indirect, consequential or special liability arising out of or in any way related to your use of this Website.</p>
 				<h6>Indemnification</h6>
 				<p>You hereby indemnify to the fullest extent SparkInvest from and against any and/or all liabilities, costs, demands, causes of action, damages and expenses arising in any way related to your breach of any of the provisions of these Terms.</p>
 				<h6>Severability</h6>
@@ -59,7 +59,35 @@
 				<p>The SparkInvest is allowed to assign, transfer, and subcontract its rights and/or obligations under these Terms without any notification. However, you are not allowed to assign, transfer, or subcontract any of your rights and/or obligations under these Terms.</p>
 				<h6>Entire Agreement</h6>
 				<p>These Terms constitute the entire agreement between SparkInvest and you in relation to your use of this Website, and supersede all prior agreements and understandings.</p>
-
+			</div>
+		</div>
+	</div>
+	<div class="popup-wrap" id="privacy-policy">
+		<div class="popup-content">
+			<a href="#" class="closepop"><span class="spark-icon icon-X"></span></a>
+			<h4>Privacy Policy</h4>
+			<div class="popup-content-text">
+				<h6>Information we collect</h6>
+				<ul>
+					<li>We collect personal information in compliance with applicable laws and ethical business practices, in order to provide a better product. We limit the information we collect to that which is necessary for, or related to, these purposes.</li>
+					<li>For online visitors, we may collect information, such as your IP address, the type of operating systems, the time and duration of your visit to our sites and the web pages you visit within our sites in order to track usage and improve our website and to improve your experience.</li>
+				</ul>
+				<h6>How we use Personal Information</h6>
+				<ul>
+					<li>We may use your personal information for the purposes for which it was collected, other purposes you consent to, or as required or permitted by law. For example, subject to those limitations, we may use your personal information to contact you with newsletters, marketing or promotional materials and other information related to our product.</li>
+					<li>We will not share your personal information, without your consent, with any organization outside our group of companies for the purpose of that organization marketing its products or services to you.</li>
+					<li>We will keep your personal information only as long as needed to satisfy the purposes for which it was collected or as required or permitted by law.</li>
+					<li>We aim to keep our records of your personal information as accurate and up to date as is necessary to fulfill the purposes for which it is used.</li>
+				</ul>
+				<h6>Security</h6>
+				<ul>
+					<li>We will protect personal information with security safeguards that are appropriate to the sensitivity of the information, in order to protect it from unauthorized access, release or use.</li>
+					<li>The security of your Personal Information is important to us, but remember that no method of transmission over the Internet, or method of electronic storage, is 100% secure. While we strive to use commercially acceptable means to protect your Personal Information, we cannot guarantee its absolute security.</li>
+				</ul>
+				<h6>Changes To This Privacy Policy</h6>
+				<p>This Privacy Policy is effective as of June 15, 2017 and will remain in effect except with respect to any changes in its provisions in the future, which will be in effect immediately after being posted on this page.</p>
+				<p>We reserve the right to update or change our Privacy Policy at any time and you should check this Privacy Policy periodically. Your continued use of the Service after we post any modifications to the Privacy Policy on this page will constitute your acknowledgment of the modifications and your consent to abide and be bound by the modified Privacy Policy.</p>
+				<p>If we make any material changes to this Privacy Policy, we will notify you either through the email address you have provided us, or by placing a prominent notice on our website.</p>
 			</div>
 		</div>
 	</div>
@@ -402,7 +430,7 @@
 
 						    <div class="wing-checkbox terms-condi-wrap">
                                 <input type="checkbox" id="terms-checkbox"/>
-                                <label for="terms-checkbox">I accept these <a href="#" id="terms-btn" style="color:#01344a;">terms &amp; conditions.</a></label>
+                                <label for="terms-checkbox">I accept these <a href="#terms-condi" class="terms-btn" style="color:#01344a;">terms &amp; conditions</a> and <a href="#privacy-policy" class="terms-btn" style="color:#01344a;">privacy policy.</a></label>
                             </div>
 
 						    <div class="clear input-wrap"><input type="submit" value="I'm In" name="subscribe" id="mc-embedded-subscribe" class="btn button is-disabled">
