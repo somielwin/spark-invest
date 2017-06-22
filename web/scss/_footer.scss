@@ -3,7 +3,17 @@ footer { z-index: 2; position: relative; }
 
 footer {
 	background: #01344a;
-	padding: 35px 0;
+	padding: 20px 0;
+	text-align: center;
+
+	.container {
+		max-width: 991px;
+	}
+
+	p {
+		color: #ccc;
+		font-size: 12px;
+	}
 
 	@include breakpoint(tablet2) {
 		padding: 15px 0;

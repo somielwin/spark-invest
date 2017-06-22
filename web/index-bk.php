@@ -111,42 +111,78 @@
 				<ul class="slides">
 					<li>
 						<div class="home-slide-item" data-text="#TravelGoals.">
-							<div class="coverimage desktop-cover"><img class="" src="images/banner-travel.jpg" width="1400" height="700" />
+							<div class="coverimage">
+								<picture>
+									<source media="(min-width: 767px)" srcset="images/banner-travel.jpg">
+									<source media="(min-width: 320px)" srcset="images/banner-mobile-travel.jpg">
+									<img src="images/banner-travel.jpg" alt="" width="1400" height="700">
+								</picture>
+							<!-- <img class="" src="images/banner-travel.jpg" width="1400" height="700" /> -->
 								
 								<!-- <div class="parallax bp-ab" data-stellar-background-ratio="0.5" style="background-image: url('images/slider7.jpg');"></div> -->
 							</div>
-							<div class="coverimage mobile-cover"><img data-src="images/banner-mobile-travel.jpg" src="" width="520" height="925" /></div>
+							<!-- <div class="coverimage mobile-cover"><img data-src="images/banner-mobile-travel.jpg" src="" width="520" height="925" /></div> -->
 						</div>
 					</li>
 					<li>
 						<div class="home-slide-item" data-text="#CarGoals.">
 
-							<div class="coverimage desktop-cover"><img class="" data-src="images/banner-car.jpg" src="" width="1400" height="700" /></div>
-							<div class="coverimage mobile-cover"><img data-src="images/banner-mobile-car.jpg" src="" width="520" height="925" /></div>
+							<div class="coverimage">
+								<picture>
+									<source media="(min-width: 767px)" srcset="images/banner-car.jpg" width="1400" height="700">
+									<source media="(min-width: 320px)" srcset="images/banner-mobile-car.jpg" width="520" height="925">
+									<img src="images/banner-car.jpg" alt="" width="1400" height="700">
+								</picture>
+
+							<!-- <img class="" data-src="images/banner-car.jpg" src="" width="1400" height="700" /></div>
+							<div class="coverimage mobile-cover"><img data-src="images/banner-mobile-car.jpg" src="" width="520" height="925" /></div> -->
+							</div>
 						</div>
 					</li>
 					<li>
 						<div class="home-slide-item" data-text="#Adulting.">
-							<div class="coverimage desktop-cover"><img class="" data-src="images/banner-lifeevent.jpg" src="" width="1400" height="700" /></div>
-							<div class="coverimage mobile-cover"><img data-src="images/banner-mobile-lifeevents.jpg" src="" width="520" height="925" /></div>
+							<div class="coverimage">
+								<picture>
+									<source media="(min-width: 767px)" srcset="images/banner-mobile-lifeevents.jpg" width="1400" height="700">
+									<source media="(min-width: 320px)" srcset="images/banner-mobile-lifeevents.jpg" width="520" height="925">
+									<img src="images/banner-mobile-lifeevents.jpg" alt="" width="1400" height="700">
+								</picture>
+							</div>
 						</div>
 					</li>
 					<li>
 						<div class="home-slide-item" data-text="#LifeGoals.">
-							<div class="coverimage desktop-cover"><img class="" data-src="images/banner-general.jpg" src="" width="1400" height="700" /></div>
-							<div class="coverimage mobile-cover"><img data-src="images/banner-mobile-general.jpg" src="" width="520" height="925" /></div>
+							<div class="coverimage">
+								<picture>
+									<source media="(min-width: 767px)" srcset="images/banner-general.jpg" width="1400" height="700">
+									<source media="(min-width: 320px)" srcset="images/banner-mobile-general.jpg" width="520" height="925">
+									<img src="images/images/banner-general.jpg" alt="" width="1400" height="700">
+								</picture>
+							</div>
+							
 						</div>
 					</li>
 					<li>
 						<div class="home-slide-item" data-text="#CareerGoals.">
-							<div class="coverimage desktop-cover"><img data-src="images/banner-career.jpg" src="" width="1400" height="700" /></div>
-							<div class="coverimage mobile-cover"><img data-src="images/banner-mobile-education.jpg" src="" width="520" height="925" /></div>
+							<div class="coverimage">
+								<picture>
+									<source media="(min-width: 767px)" srcset="images/banner-career.jpg" width="1400" height="700">
+									<source media="(min-width: 320px)" srcset="images/banner-mobile-education.jpg" width="520" height="925">
+									<img src="images/banner-career.jpg" alt="" width="1400" height="700">
+								</picture>
+							</div>
+							
 						</div>
 					</li>
 					<li>
 						<div class="home-slide-item" data-text="#HouseGoal.">
-							<div class="coverimage desktop-cover"><img class="" data-src="images/banner-house.jpg" src="" width="1400" height="700" /></div>
-							<div class="coverimage mobile-cover"><img data-src="images/banner-mobile-house.jpg" src="" width="520" height="925" /></div>
+							<div class="coverimage">
+								<picture>
+									<source media="(min-width: 767px)" srcset="images/banner-house.jpg" width="1400" height="700">
+									<source media="(min-width: 320px)" srcset="images/banner-mobile-house.jpg" width="520" height="925">
+									<img src="images/banner-house.jpg" alt="" width="1400" height="700">
+								</picture>
+							</div>
 						</div>
 					</li>
 				</ul>
@@ -397,10 +433,8 @@
 					<div class="animated hiding pf-item1" data-animation="fadeInUp">
 						<div class="icon-logo animated hiding" data-animation="zoomIn" data-delay="600"><img src="images/logo-icon.png" alt=""></div>
 						<h3>Like what you see?</h3>
-						<p>Of course you do. <br>But we’d appreciate it if you could answer a few questions first.</p>
+						<p>This survey Lorem ipsum dolor amit sit.</p>
 						<a href="https://goo.gl/forms/t61mSBmbs0mzxrwz1" class="btn btn-orange">Take a Survey</a>
-
-
 					</div>
 					<!-- <div id="slot-wrap" class="slot-wrap animated hiding" data-animation="zoomIn" >
 						<div class="slot-available">
@@ -489,7 +523,7 @@
 </section>
 <footer>
 	<div class="container">
-		<p><small>SparkInvest assures you that all answers you will provide will be kept in strictest confidentiality. On the other hand, we will not collect any private information from you that will be used for any other means not disclosed to you. This is strictly for research purposes to help us better understand your needs and serve you the best way possible. <br>Thank you!</small></p>
+		
 	</div>
 </footer>
 <script src="js/lib/jquery.min.js"></script>

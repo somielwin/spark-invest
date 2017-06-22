@@ -904,6 +904,13 @@ body {
         @include breakpoint(phablet) {
             font-size: 16px;
         }
+
+
+        small {
+            font-size: 14px;
+            font-style: italic;
+            line-height: 18px;
+        }
     }
 
     .btn {
