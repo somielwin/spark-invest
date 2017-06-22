@@ -876,11 +876,10 @@ body {
     h3 {
         font-size: 37px;
         font-weight: 700;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
 
         @include breakpoint(tablet) {
             font-size: 30px;
-            margin-bottom: 30px;
         }
 
         @include breakpoint(phablet) {
@@ -894,18 +893,33 @@ body {
         font-weight: 300;
     }
 
+    p {
+        font-size: 24px;
+        font-weight: 300;
+
+        @include breakpoint(tablet) {
+            font-size: 20px;
+        }
+
+        @include breakpoint(phablet) {
+            font-size: 16px;
+        }
+    }
+
     .btn {
         font-weight: 700;
         font-size: 25px;
         color: #fff;
-        padding: 0px 80px;
+        padding: 0px 40px;
         line-height: 50px;
         border-radius: 6px;
         margin-top: 20px;
         display: inline-block;
         margin-bottom: 40px;
+        margin-top: 40px;
         cursor: pointer;
         outline: none;
+        letter-spacing: 0.5px;
 
 
         @include breakpoint(mobile) {

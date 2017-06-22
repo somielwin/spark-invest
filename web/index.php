@@ -18,7 +18,7 @@
 </head>
 <body>
 <section id="main-container">
-	<div class="popup-wrap" id="terms-condi">
+	<!-- <div class="popup-wrap" id="terms-condi">
 		<div class="popup-content">
 			<a href="#" class="closepop"><span class="spark-icon icon-X"></span></a>
 			<h4>Terms &amp; Conditions</h4>
@@ -61,8 +61,8 @@
 				<p>These Terms constitute the entire agreement between SparkInvest and you in relation to your use of this Website, and supersede all prior agreements and understandings.</p>
 			</div>
 		</div>
-	</div>
-	<div class="popup-wrap" id="privacy-policy">
+	</div> -->
+	<!-- <div class="popup-wrap" id="privacy-policy">
 		<div class="popup-content">
 			<a href="#" class="closepop"><span class="spark-icon icon-X"></span></a>
 			<h4>Privacy Policy</h4>
@@ -90,7 +90,7 @@
 				<p>If we make any material changes to this Privacy Policy, we will notify you either through the email address you have provided us, or by placing a prominent notice on our website.</p>
 			</div>
 		</div>
-	</div>
+	</div> -->
 	<section id="main-wrapper">
 		<section id="home-banner" class="jq-section reciept-hidden">
 			<div class="banner-text">
@@ -360,7 +360,7 @@
 									<div class="required-field"><p>Please complete this field.</p></div>
 								</div>
 							</div>
-							<div class="options-wrap opt-invest animated hiding" data-animation="fadeInUp">
+							<div class="options-wrap opt-invest animated hiding" data-animation="fadeInUp" style="border-bottom: none;">
 								<span class="sec-head-icon"><span class="spark-icon icon-invest"></span></span>
 								<h3>How Much I Can Invest:</h3>
 								<div class="input-wrap small">
@@ -369,11 +369,6 @@
 									<div class="required-field minimum"><p>Please input greater than 5,000</p></div>
 								</div>
 								<p>(Minimum of PhP 5,000)</p>
-							</div>
-
-							<div class="options-survey text-center">
-								<h3>Like what you see? </h3>
-								<a href="https://goo.gl/forms/t61mSBmbs0mzxrwz1" class="btn btn-green">Take a Survey</a>
 							</div>
 
 							<!-- <div class="loading-spinner-wrapper" id="app-loader">
@@ -401,8 +396,9 @@
 				<div class="bet-wrap">
 					<div class="animated hiding pf-item1" data-animation="fadeInUp">
 						<div class="icon-logo animated hiding" data-animation="zoomIn" data-delay="600"><img src="images/logo-icon.png" alt=""></div>
-						<!-- <h3>Like what you see? <br> Sign up and get first dibs!</h3> -->
-						
+						<h3>Like what you see?</h3>
+						<p>This survey Lorem ipsum dolor amit sit.</p>
+						<a href="https://goo.gl/forms/t61mSBmbs0mzxrwz1" class="btn btn-orange">Take a Survey</a>
 					</div>
 					<!-- <div id="slot-wrap" class="slot-wrap animated hiding" data-animation="zoomIn" >
 						<div class="slot-available">
