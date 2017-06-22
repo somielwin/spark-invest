@@ -13,6 +13,10 @@ footer {
 	p {
 		color: #ccc;
 		font-size: 12px;
+
+		@include breakpoint(tablet2) {
+			font-size: 10px;
+		}
 	}
 
 	@include breakpoint(tablet2) {
