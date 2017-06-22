@@ -812,11 +812,12 @@ body {
         padding: 0px 60px;
         line-height: 60px;
         border-radius: 6px;
-        margin-top: 40px;
+        margin-top: 25px;
         display: inline-block;
         margin-bottom: 20px;
         outline: none;
         cursor: pointer;
+        letter-spacing: 1px;
 
         @include breakpoint(tablet) {
             margin-top: 30px;
@@ -1773,6 +1774,22 @@ body {
     margin-top: 3px !important;
     padding: 0 !important;
     top: 100%;
+}
+
+#options-survey {
+    margin-top: 40px;
+}
+
+.options-survey {
+
+    h3 {    
+        text-align: center;
+        padding-top: 40px;
+        font-size: 40px;
+        font-weight: 300;
+        color: #0cc5ad;
+
+    }
 }
 
 @-webkit-keyframes pulse {

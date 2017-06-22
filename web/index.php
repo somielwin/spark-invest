@@ -371,19 +371,24 @@
 								<p>(Minimum of PhP 5,000)</p>
 							</div>
 
-							<div class="text-center animated hiding" data-animation="fadeInUp">
-								<input type="submit" name="" value="Spark my Goal!" class="btn btn-green">
+							<div class="options-survey text-center">
+								<h3>Like what you see? </h3>
+								<a href="https://goo.gl/forms/t61mSBmbs0mzxrwz1" class="btn btn-green">Take a Survey</a>
 							</div>
 
-							<div class="loading-spinner-wrapper" id="app-loader">
+							<!-- <div class="loading-spinner-wrapper" id="app-loader">
                                 <span class="loading-spinner">
                                   <i class="one"></i>
                                   <i class="two"></i>
                                   <i class="three"></i>
                                 </span>
-                            </div>
+                            </div> -->
 						</form>
-					</div>						
+					</div>	
+
+					<!-- <div class="form-wrapper" id="options-survey">
+						
+					</div> -->					
 				</div>
 				
 			</div>
@@ -396,10 +401,10 @@
 				<div class="bet-wrap">
 					<div class="animated hiding pf-item1" data-animation="fadeInUp">
 						<div class="icon-logo animated hiding" data-animation="zoomIn" data-delay="600"><img src="images/logo-icon.png" alt=""></div>
-						<h3>Like what you see? <br> Sign up and get first dibs!</h3>
+						<!-- <h3>Like what you see? <br> Sign up and get first dibs!</h3> -->
 						
 					</div>
-					<div id="slot-wrap" class="slot-wrap animated hiding" data-animation="zoomIn" >
+					<!-- <div id="slot-wrap" class="slot-wrap animated hiding" data-animation="zoomIn" >
 						<div class="slot-available">
 							<h2>39 <span>Slots Left!</span></h2>
 						</div>
@@ -407,9 +412,6 @@
 					<div class="sign-up-wrap animated hiding" data-animation="fadeInUp">
 						<h3>Be one of the first 500 to try out SparkInvest!</h3>
 
-						<!-- Begin MailChimp Signup Form -->
-
-						<!-- Begin MailChimp Signup Form -->
 						<div id="mc_embed_signup">
 						<form action="//facebook.us16.list-manage.com/subscribe/post?u=539c4227d07f536f12b9f9329&amp;id=b0202ecd1a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 						    <div id="mc_embed_signup_scroll">
@@ -425,13 +427,12 @@
 							<div id="mce-responses " class="clear">
 								<div class="response" id="mce-error-response" style="display:none"></div>
 								<div class="response" id="mce-success-response" style="display:none"></div>
-							</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+							</div>   
 						    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_539c4227d07f536f12b9f9329_b0202ecd1a" tabindex="-1" value=""></div>
 
 						    <div class="wing-checkbox terms-condi-wrap">
                                 <input type="checkbox" id="terms-checkbox"/>
                                 <label for="terms-checkbox">I have read and accept these <a href="#terms-condi" class="terms-btn" style="color:#01344a;">terms and conditions.</a> <br> I also abide by the <a href="#privacy-policy" class="terms-btn" style="color:#01344a;">privacy policy</a> detailed herein.</label>
-                                <!-- <label for="terms-checkbox">I accept these <a href="#terms-condi" class="terms-btn" style="color:#01344a;">terms &amp; conditions</a> and <a href="#privacy-policy" class="terms-btn" style="color:#01344a;">privacy policy.</a></label> -->
                             </div>
 
 						    <div class="clear input-wrap"><input type="submit" value="I'm In" name="subscribe" id="mc-embedded-subscribe" class="btn button is-disabled">
@@ -443,42 +444,14 @@
 						</form>
 						</div>
 						<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-						<!--End mc_embed_signup-->
 						
-						
-
-						<!--End mc_embed_signup-->
-						<!-- <form id="subscribeNewsletter" method="post" action="" novalidate="">
-							<div class="input-wrap half">
-								<input type="text" id="first-name" name="fname" value="" maxLength="20" required="required" onchange="this.setAttribute('value', this.value);">
-						            <label for="first-name">Enter Name</label>
-						            <div class="required-field right">
-						                <p>This field is required <span>*</span></p>
-						            </div>
-							</div>
-							<div class="input-wrap half">
-								<input type="email" id="account-email" name="email" value="" required="required" onchange="this.setAttribute('value', this.value);">
-						            <label for="account-email">Enter Email</label>
-						            <div class="required-field right">
-						                <p>This field is required <span>*</span></p>
-						            </div>
-							</div>
-							<div class="clr"></div>
-							<div class="wing-checkbox terms-condi-wrap">
-                                <input type="checkbox" id="terms-checkbox"/>
-                                <label for="terms-checkbox">I accept these <a href="#" id="terms-btn" style="color:#01344a;">terms &amp; conditions.</a></label>
-                            </div>
-							<div class="input-wrap">
-								<input class="btn" type="submit" name="" value="I'm In!">
-							</div>
-						</form> -->
 					</div>
-					
+					 -->
 				</div>
 			</div>
 		</section>
 
-		<section id="" class="sec-pad null-bot null-top pf-item2" style="display:none;">
+		<!-- <section id="" class="sec-pad null-bot null-top pf-item2" style="display:none;">
 			<div class="preview-form">
 				<div class="container">
 					<div class="sec-header animated hiding" data-animation="fadeInUp">
@@ -513,7 +486,7 @@
 				</div>
 			</div>
 
-		</section>
+		</section> -->
 	</section>
 </section>
 <footer>
