@@ -918,7 +918,7 @@ body {
         font-size: 25px;
         color: #fff;
         padding: 0px 40px;
-        line-height: 50px;
+        line-height: 60px;
         border-radius: 6px;
         margin-top: 20px;
         display: inline-block;
@@ -931,7 +931,7 @@ body {
 
         @include breakpoint(mobile) {
             margin-bottom: 20px;
-            line-height: 42px;
+            line-height: 52px;
             padding: 0px 50px;
             font-size: 20px;
         }
