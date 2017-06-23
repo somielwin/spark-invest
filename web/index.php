@@ -18,7 +18,7 @@
 </head>
 <body>
 <section id="main-container">
-	<!-- <div class="popup-wrap" id="terms-condi">
+	<div class="popup-wrap" id="terms-condi">
 		<div class="popup-content">
 			<a href="#" class="closepop"><span class="spark-icon icon-X"></span></a>
 			<h4>Terms &amp; Conditions</h4>
@@ -61,28 +61,15 @@
 				<p>These Terms constitute the entire agreement between SparkInvest and you in relation to your use of this Website, and supersede all prior agreements and understandings.</p>
 			</div>
 		</div>
-	</div> -->
-	<!-- <div class="popup-wrap" id="privacy-policy">
+	</div>
+	<div class="popup-wrap" id="privacy-policy">
 		<div class="popup-content">
 			<a href="#" class="closepop"><span class="spark-icon icon-X"></span></a>
 			<h4>Privacy Policy</h4>
 			<div class="popup-content-text">
 				<h6>Information we collect</h6>
 				<ul>
-					<li>We collect personal information in compliance with applicable laws and ethical business practices, in order to provide a better product. We limit the information we collect to that which is necessary for, or related to, these purposes.</li>
-					<li>For online visitors, we may collect information, such as your IP address, the type of operating systems, the time and duration of your visit to our sites and the web pages you visit within our sites in order to track usage and improve our website and to improve your experience.</li>
-				</ul>
-				<h6>How we use Personal Information</h6>
-				<ul>
-					<li>We may use your personal information for the purposes for which it was collected, other purposes you consent to, or as required or permitted by law. For example, subject to those limitations, we may use your personal information to contact you with newsletters, marketing or promotional materials and other information related to our product.</li>
-					<li>We will not share your personal information, without your consent, with any organization outside our group of companies for the purpose of that organization marketing its products or services to you.</li>
-					<li>We will keep your personal information only as long as needed to satisfy the purposes for which it was collected or as required or permitted by law.</li>
-					<li>We aim to keep our records of your personal information as accurate and up to date as is necessary to fulfill the purposes for which it is used.</li>
-				</ul>
-				<h6>Security</h6>
-				<ul>
-					<li>We will protect personal information with security safeguards that are appropriate to the sensitivity of the information, in order to protect it from unauthorized access, release or use.</li>
-					<li>The security of your Personal Information is important to us, but remember that no method of transmission over the Internet, or method of electronic storage, is 100% secure. While we strive to use commercially acceptable means to protect your Personal Information, we cannot guarantee its absolute security.</li>
+					<li>For online visitors, we may collect information, such as your IP address, the type of operating systems, the time and duration of your visit to our sites and the web pages you visit within our sites in order to track usage and improve our website and to improve your experience. </li>
 				</ul>
 				<h6>Changes To This Privacy Policy</h6>
 				<p>This Privacy Policy is effective as of June 15, 2017 and will remain in effect except with respect to any changes in its provisions in the future, which will be in effect immediately after being posted on this page.</p>
@@ -90,7 +77,7 @@
 				<p>If we make any material changes to this Privacy Policy, we will notify you either through the email address you have provided us, or by placing a prominent notice on our website.</p>
 			</div>
 		</div>
-	</div> -->
+	</div>
 	<section id="main-wrapper">
 		<section id="home-banner" class="jq-section reciept-hidden">
 			<div class="banner-text">
@@ -490,6 +477,14 @@
 <footer>
 	<div class="container">
 		<p><small>SparkInvest assures you that all answers you will provide will be kept in strictest confidentiality. On the other hand, we will not collect any private information from you that will be used for any other means not disclosed to you. This is strictly for research purposes to help us better understand your needs and serve you the best way possible. <br>Thank you!</small></p>
+
+		<div class="footer-menu">
+			<ul>
+				<li><a href="#privacy-policy" class="terms-btn">Privacy Policy</a></li>
+				<li><a href="#terms-condi" class="terms-btn">Terms &amp; Conditions</a></li>
+				
+			</ul>
+		</div>
 	</div>
 </footer>
 <script src="js/lib/jquery.min.js"></script>

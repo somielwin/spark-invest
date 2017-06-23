@@ -22,4 +22,42 @@ footer {
 	@include breakpoint(tablet2) {
 		padding: 15px 0;
 	}
+
+	.footer-menu {
+		text-align: center;
+		padding-top: 15px;
+
+		li {
+			display: inline-block;
+			text-align: center;
+			padding: 0px 8px;
+			position: relative;
+
+			&:after {
+				content:'';
+				display: block;
+				position: absolute;
+				height: 15px;
+				width: 1px;
+				right: -4px;
+				top: 50%;
+				margin-top: -5px;
+				border-left: 1px solid #ccc;
+			}
+
+			&:last-child {
+
+				&:after {
+					display: none;
+				}
+			}
+
+			a {
+				color: #ccc;
+				font-size: 12px;
+				display: inline-block;
+				text-decoration: none;
+			}
+		}
+	}
 }
