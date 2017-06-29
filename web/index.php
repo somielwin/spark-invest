@@ -384,7 +384,7 @@
 					<div class="animated hiding pf-item1" data-animation="fadeInUp">
 						<div class="icon-logo animated hiding" data-animation="zoomIn" data-delay="600"><img src="images/logo-icon.png" alt=""></div>
 						<h3>Like what you see?</h3>
-						<p>Of course you do. <br>But we’d appreciate it if you could answer a few questions first.</p>
+						<p>Of course you do. <br>We’d appreciate it if you could answer a few questions first.</p>
 						<a href="https://goo.gl/forms/t61mSBmbs0mzxrwz1" class="btn btn-orange">Take a Survey</a>
 
 
