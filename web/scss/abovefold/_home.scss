@@ -539,6 +539,293 @@
     height: 100%;
 }
 
+
+.floating-img {
+	height: 0;
+	padding-bottom: 50%;
+	width: 40%;
+	overflow: hidden;
+	position: relative;
+
+	@include breakpoint(tablet) {
+		height: auto;
+		padding-bottom: 0;
+
+	}
+
+    @include breakpoint(tablet2) {
+        display: none;
+    }
+
+	@include breakpoint(phablet) {
+		width: 100%;
+		display: none;
+	}
+
+	img {
+		width: 100%;
+		height: auto;
+		display: block;
+	}
+}
+
+.floating-text {
+	position: absolute;
+	top: 50%;
+	width: 50%;
+	@include transform(translateY(-50%));
+	text-align: center;
+	padding: 0px 15px;
+
+	@include breakpoint(tablet) {
+		
+		width: 100%;
+		padding-top: 30px;
+		padding-bottom: 30px;
+		
+	}
+
+    @include breakpoint(tablet2) {
+        position: relative;
+        top: 0;
+        @include transform(translateY(0%));
+    }
+
+	@include breakpoint(mobile) {
+		padding-left: 0;
+		padding-right: 0;
+        padding-top: 0;
+	}
+
+
+	&.right {
+		right: 0;
+	}
+
+	h3 {
+		color: $coGreen;
+		font-weight: 900;
+		margin-bottom: 25px;
+
+		@include breakpoint(mobile) {
+			margin-bottom: 15px;
+		}
+	}
+
+	p {
+		font-size: 20px;
+		line-height: 24px;
+		font-weight: 300;
+
+		@include breakpoint(tablet) {
+			font-size: 16px;
+		}
+	}
+
+	.fl-img {
+		background: $coGreen;
+	}
+}
+
+.jq-section {
+    @include breakpoint(tablet2) {
+        width: 48%;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    @include breakpoint(mobile) {
+        width: 100%;
+        display: block;
+    }
+}
+
+.full-boxes {
+	position: relative;
+
+    
+
+	.container {
+		position: relative;
+
+        &.c-right {
+            margin: 0 0 0 auto;
+        }
+
+		@include breakpoint(tablet) {
+			float: none;
+			width: 60%;
+            margin: 0;
+		}
+
+        @include breakpoint(tablet2) {
+            width: 100%;
+            float: none;
+        }
+
+		@include breakpoint(phablet) {
+			float: left;
+			width: 100%;
+		}
+	}
+}
+
+.phone-holder {
+	width: 236px;
+    height: 480px;
+    position: absolute;
+	right: 100%;
+	bottom: -50px;
+	margin-right: -50%;
+	max-height: 687px;
+    background: url('../images/phone-holder.png') no-repeat center center;
+    background-size: contain;
+
+	@include breakpoint(tablet) {
+		margin-right: 0;
+        width: 180px;
+	}
+
+    @include breakpoint(tablet2) {
+        display: none;
+    }
+}
+
+.phone-holder-wrap {
+	width: 89.5%;
+    height: 0;
+    position: relative;
+    padding-bottom: 157%;
+    top: 11%;
+    left: 5%;
+
+    @include breakpoint(tablet) {
+        top: 95px;
+    }
+
+	img {
+		width: 100%;
+		height: auto;
+		display: block;
+	}
+}
+
+.phone-width {
+	width: 50%;
+	height: 100%;
+	position: absolute;
+	z-index: 3;
+	top: 0;
+
+	// @include breakpoint(tablet) {
+	// 	display: none;
+	// }
+
+	&.right {
+		right: 0;
+
+		.phone-holder {
+			left: 100%;
+			margin-left: -50%;
+
+			@include breakpoint(tablet) {
+				margin-left: 0;
+			}
+		}
+	}
+}
+
+.clearfix:before, .clearfix:after, .container:before, .container:after, .container-fluid:before, .container-fluid:after, .row:before, .row:after {
+    display: table;
+    content: " ";
+    clear: both;
+    float: none;
+}
+
+.floating-text {
+
+    .sec-title {
+        font-weight: 300;
+        color: $defaultColor;
+
+        @include breakpoint(tablet) {
+            font-size: 32px;
+        }
+
+        @include breakpoint(tablet2) {
+            font-size: 24px;
+        }
+
+        @include breakpoint(phablet) {
+            font-size: 18px;
+        }
+        
+        span {
+            color: $coGreen;
+        }
+    }
+}
+
+.fl-img {
+	width: 142px;
+	height: 142px;
+	background: $coWhite;
+	border-radius: 50%;
+	margin: 0 auto 25px;
+    line-height: 142px;
+    font-size: 50px;
+    color: #fff;
+
+	img {
+        position: relative;
+        height: auto;
+        display: none;
+        width: 100%;
+        
+
+
+        @include breakpoint(tablet2) {
+            display: block;
+        }
+    }
+
+    @include breakpoint(tablet) {
+        width: 90px;
+        height: 90px;
+        font-size: 30px;
+        line-height: 90px;
+        
+    }
+
+    @include breakpoint(tablet2) {
+        width: 100%;
+        height: auto;
+        display: block;
+        max-width: 280px;
+        margin: 0 auto;
+
+        .spark-icon {
+            display: none;
+        }
+    }
+
+    @include breakpoint(mobile) {
+		margin-bottom: 15px;
+	}
+
+	.spark-icon.icon-SparkYourGoal {
+        font-size: 60px;
+        line-height: 142px;
+
+        @include breakpoint(tablet) {
+            font-size: 40px;
+            line-height: 90px;
+            
+        }
+    }
+
+}
+
 @-webkit-keyframes animBg {
     0% {
         opacity: 0;
