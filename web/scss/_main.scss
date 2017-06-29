@@ -336,6 +336,10 @@ body {
             padding-left: 30px;
             padding-bottom: 20px;
 
+            @include breakpoint(tablet2) {
+                font-size: 20px;
+            }
+
             &:after {
                 content:'';
                 display: block;
@@ -353,6 +357,14 @@ body {
                 text-align: left;
                 font-weight: 300;
                 margin-bottom: 5px;
+
+                @include breakpoint(tablet) {
+                    font-size: 24px;
+                }
+
+                @include breakpoint(tablet2) {
+                    font-size: 18px;
+                }
 
                 span {
                     font-weight: 700;
@@ -537,9 +549,9 @@ body {
 }
 
 .you-can {
-    @include breakpoint(tablet2) {
-        margin: 0px 10px;
-    } 
+    // @include breakpoint(tablet2) {
+    //     margin: 0px 10px;
+    // } 
 }
 
 .step-wrap {
@@ -1359,7 +1371,7 @@ body {
             left: -40px;
 
             @include breakpoint(phablet) {
-                left: -20px;
+                left: -10px;
             }
         }
 
@@ -1367,7 +1379,7 @@ body {
             right: -40px;
 
             @include breakpoint(phablet) {
-                right: -20px;
+                right: -10px;
             }
         }
     }
