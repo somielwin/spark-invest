@@ -146,7 +146,7 @@
 				<div class="container">
 					<h2 class="sec-title text-center">Here's a sneak peek</h2>
 					
-					<!--<div class="want-options owl-carousel owl-theme">
+					<div class="want-options owl-carousel owl-theme">
 						<div class="item">
 							<div class="you-can-item">
 								<div class="img-wrap"><img src="images/screen1.jpg" alt=""></div>
@@ -177,38 +177,25 @@
 								<div class="img-wrap"><img src="images/screen6.jpg" alt=""></div>
 							</div>
 						</div>
-					</div>-->
-					<!--<div class="spark-app-detail">
+					</div>
+					<div class="spark-app-detail">
+						<span class="sec-head-icon"><span class="spark-icon icon-Phone"></span></span>
+						<h2 class="sec-title text-center" style="font-weight: 300; padding-top: 15px; opacity: 1;">With SparkInvest, you can:</h2>
 						<ul>
 							<li>
 								<h3><span>Start on</span> your goals whenever you want.</h3>
-								<p>SparkInvest assures you that all answers you will provide will be kept in </p>
 							</li>
 							<li>
 								<h3><span>Track</span> your progress in real-time.</h3>
-								<p>Lorem Ipsum Dolor Amit Sit</p>
 							</li>
 							<li>
 								<h3><span>Maneuver</span> freely.</h3>
-								<p>Lorem Ipsum Dolor Amit Sit</p>
 							</li>
 						</ul>
-					</div>-->
+					</div>
 				</div>
 			</div>
 		</section>
-
-		<section id="" class="sec-pad reciept-hidden">
-			<div class="you-can">
-				<div class="container">
-					<span class="sec-head-icon"><span class="spark-icon icon-Phone"></span></span>
-					<h2 class="sec-title text-center" style="font-weight:300; padding-top:15px;">With SparkInvest, you can:</h2>
-				</div>
-			</div>
-		</section>
-		<div class="sec-pad text-center null-top null-bot" id="ajax-section">
-			
-		</div>
 
 		<section id="" class="sec-pad bg-grey">
 			<div class="container">
