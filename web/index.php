@@ -144,7 +144,7 @@
 		<section id="" class="sec-pad reciept-hidden null-bot">
 			<div class="you-can">
 				<div class="container">
-					<h2 class="sec-title text-center">Here's a sneak peek</h2>
+					<h2 class="sec-title text-center">Here's a sneak peek of SparkInvest</h2>
 					
 					<div class="want-options owl-carousel owl-theme">
 						<div class="item">
