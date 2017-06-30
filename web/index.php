@@ -141,57 +141,29 @@
 			
 		</section>
 
-		<section id="" class="sec-pad reciept-hidden null-bot">
+		<section id="" class="sec-pad reciept-hidden">
 			<div class="you-can">
 				<div class="container">
-					<h2 class="sec-title text-center">Here's a sneak peek of SparkInvest</h2>
-					
-					<div class="want-options owl-carousel owl-theme">
-						<div class="item">
-							<div class="you-can-item">
-								<div class="img-wrap"><img src="images/screen1.jpg" alt=""></div>
+					<h2 class="sec-title text-center">With SparkInvest, you can:</h2>
+					<div class="flex">
+						<div class="you-can-item animated hiding" data-animation="fadeInUp" data-delay="100">
+							<div class="img-wrap"><img src="images/graphic1.jpg" alt=""></div>
+							<div class="you-can-text">
+								<p><span>Start on</span> your goals whenever you want.</p>
 							</div>
 						</div>
-						<div class="item">
-							<div class="you-can-item">
-								<div class="img-wrap"><img src="images/screen2.jpg" alt=""></div>
+						<div class="you-can-item animated hiding" data-animation="fadeInUp" data-delay="200">
+							<div class="img-wrap"><img src="images/graphic2.jpg" alt=""></div>
+							<div class="you-can-text">
+								<p><span>Track</span> your progress in real-time.</p>
 							</div>
 						</div>
-						<div class="item">
-							<div class="you-can-item">
-								<div class="img-wrap"><img src="images/screen3.jpg" alt=""></div>
+						<div class="you-can-item animated hiding" data-animation="fadeInUp" data-delay="300">
+							<div class="img-wrap"><img src="images/graphic3.jpg" alt=""></div>
+							<div class="you-can-text">
+								<p><span>Maneuver</span> freely.</p>
 							</div>
 						</div>
-						<div class="item">
-							<div class="you-can-item">
-								<div class="img-wrap"><img src="images/screen4.jpg" alt=""></div>
-							</div>
-						</div>
-						<div class="item">
-							<div class="you-can-item">
-								<div class="img-wrap"><img src="images/screen5.jpg" alt=""></div>
-							</div>
-						</div>
-						<div class="item">
-							<div class="you-can-item">
-								<div class="img-wrap"><img src="images/screen6.jpg" alt=""></div>
-							</div>
-						</div>
-					</div>
-					<div class="spark-app-detail">
-						<span class="sec-head-icon"><span class="spark-icon icon-Phone"></span></span>
-						<h2 class="sec-title text-center" style="font-weight: 300; padding-top: 15px; opacity: 1;">With SparkInvest, you can:</h2>
-						<ul>
-							<li>
-								<h3><span>Start on</span> your goals whenever you want.</h3>
-							</li>
-							<li>
-								<h3><span>Track</span> your progress in real-time.</h3>
-							</li>
-							<li>
-								<h3><span>Maneuver</span> freely.</h3>
-							</li>
-						</ul>
 					</div>
 				</div>
 			</div>
@@ -208,89 +180,11 @@
 
 
 					</div>
-					<!-- <div id="slot-wrap" class="slot-wrap animated hiding" data-animation="zoomIn" >
-						<div class="slot-available">
-							<h2>39 <span>Slots Left!</span></h2>
-						</div>
-					</div>
-					<div class="sign-up-wrap animated hiding" data-animation="fadeInUp">
-						<h3>Be one of the first 500 to try out SparkInvest!</h3>
-
-						<div id="mc_embed_signup">
-						<form action="//facebook.us16.list-manage.com/subscribe/post?u=539c4227d07f536f12b9f9329&amp;id=b0202ecd1a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-						    <div id="mc_embed_signup_scroll">
-							
-						<div class="mc-field-group input-wrap half">
-							<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" required="required" onchange="this.setAttribute('value', this.value);"> 
-							<label for="mce-EMAIL">Email Address *</label>
-						</div>
-						<div class="mc-field-group input-wrap half">
-							<input type="text" value="" name="FNAME" class="" id="mce-FNAME" required="required"  onchange="this.setAttribute('value', this.value);">
-							<label for="mce-FNAME">First Name </label>
-						</div>
-							<div id="mce-responses " class="clear">
-								<div class="response" id="mce-error-response" style="display:none"></div>
-								<div class="response" id="mce-success-response" style="display:none"></div>
-							</div>   
-						    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_539c4227d07f536f12b9f9329_b0202ecd1a" tabindex="-1" value=""></div>
-
-						    <div class="wing-checkbox terms-condi-wrap">
-                                <input type="checkbox" id="terms-checkbox"/>
-                                <label for="terms-checkbox">I have read and accept these <a href="#terms-condi" class="terms-btn" style="color:#01344a;">terms and conditions.</a> <br> I also abide by the <a href="#privacy-policy" class="terms-btn" style="color:#01344a;">privacy policy</a> detailed herein.</label>
-                            </div>
-
-						    <div class="clear input-wrap"><input type="submit" value="I'm In" name="subscribe" id="mc-embedded-subscribe" class="btn button is-disabled">
-						    	<div class="required-field">
-						    		<p class="text-center" style="text-align: center;">"Please check our terms and conditions"</p>
-						    	</div>
-						   	</div>
-						    </div>
-						</form>
-						</div>
-						<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-						
-					</div>
-					 -->
 				</div>
 			</div>
 		</section>
 
-		<!-- <section id="" class="sec-pad null-bot null-top pf-item2" style="display:none;">
-			<div class="preview-form">
-				<div class="container">
-					<div class="sec-header animated hiding" data-animation="fadeInUp">
-						<h2>Awesome <br>Your Investment Plan <br>Is Ready.</h2>
-					</div>
-
-					<div class="form-wrapper" id="sparkReciept">
-						<div class="options-wrap reciept-what">
-							<div class="reciept-what-item">
-								<span class="sec-head-icon"><span class="spark-icon icon-SparkYourGoal"></span></span>
-								<p>Travel to Hawaii Travel to Hawai Travel to Hawai</p>
-							</div>
-						</div>
-						<div class="options-wrap reciept-when">
-							<span class="sec-head-icon"><span class="spark-icon icon-Life-Evenet-Stroke"></span></span>
-							<label>I want it in:</label>
-							<p>1 Year &amp; 2 months</p>
-						</div>
-						<div class="options-wrap reciept-cost">
-							<span class="sec-head-icon"><span class="spark-icon icon-invest"></span></span>
-							<label>I will invest:</label>
-							<p>Php <span>5,000</span> / Month</p>
-						</div>
-						<div class="options-wrap reciept-target">
-							<div class="reciept-target-item">
-								<span class="sec-head-icon"><span class="spark-icon icon-PayOnline"></span></span>
-								<label>The Target</label>
-								<p>PhP <span>90, 000</span></p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-		</section> -->
+		
 	</section>
 </section>
 <footer>
