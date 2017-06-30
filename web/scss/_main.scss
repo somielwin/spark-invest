@@ -480,6 +480,10 @@ body {
         width: 100%;
         height: auto;
         opacity: 0.8;
+
+        @include breakpoint(tablet2) {
+            opacity: 1;
+        }
     }
 }
 
