@@ -147,25 +147,63 @@
 					<h2 class="sec-title text-center">With SparkInvest, you can:</h2>
 					<div class="flex">
 						<div class="you-can-item animated hiding" data-animation="fadeInUp" data-delay="100">
+							<div class="img-wrap"><img src="images/graphic1.jpg" alt=""></div>
 							<div class="you-can-text">
 								<p><span>Start on</span> your goals whenever you want.</p>
 							</div>
-							<div class="img-wrap"><img src="images/screen1.jpg" alt=""></div>
-							
 						</div>
 						<div class="you-can-item animated hiding" data-animation="fadeInUp" data-delay="200">
+							<div class="img-wrap"><img src="images/graphic2.jpg" alt=""></div>
 							<div class="you-can-text">
 								<p><span>Track</span> your progress in real-time.</p>
 							</div>
-							<div class="img-wrap"><img src="images/screen6.jpg" alt=""></div>
-							
 						</div>
 						<div class="you-can-item animated hiding" data-animation="fadeInUp" data-delay="300">
+							<div class="img-wrap"><img src="images/graphic3.jpg" alt=""></div>
 							<div class="you-can-text">
 								<p><span>Maneuver</span> freely.</p>
 							</div>
-							<div class="img-wrap"><img src="images/screen4.jpg" alt=""></div>
-							
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="" class="sec-pad reciept-hidden">
+			<div class="step-wrap">
+				<div class="container">
+					<h2 class="sec-title text-center animated hiding" data-animation="fadeInUp">Make it happen in only 3 steps</h2>
+					<div class="flex">
+						<div class="step-item animated hiding" data-animation="fadeInUp">
+							<span class="step-num animated hiding" data-animation="zoomIn" data-delay="200">1</span>
+							<div class="step-box">
+								<div class="step-box-content">
+									<!--<div class="step-box-icon"><span class="spark-icon icon-SparkYourGoal"></span></div>-->
+									<div class="step-box-imap"><img src="images/screen1.jpg" alt=""></div>
+									<h4>Spark Your Goal</h4>
+									<p>Let's get you started.</p>
+								</div>
+							</div>
+						</div>
+						<div class="step-item animated hiding" data-animation="fadeInUp">
+							<span class="step-num animated hiding" data-animation="zoomIn" data-delay="300">2</span>
+							<div class="step-box">
+								<div class="step-box-content">
+									<div class="step-box-imap"><img src="images/screen3.jpg" alt=""></div>
+									<h4>Create An Account</h4>
+									<p>Tell us more about you!</p>
+								</div>
+							</div>
+						</div>
+						<div class="step-item animated hiding" data-animation="fadeInUp">
+							<span class="step-num animated hiding" data-animation="zoomIn" data-delay="400">3</span>
+							<div class="step-box">
+								<div class="step-box-content">
+									<div class="step-box-imap"><img src="images/screen7.jpg" alt=""></div>
+									<h4>Pay Online</h4>
+									<p>Congratulations! You just sparked your goal.</p>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
