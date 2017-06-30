@@ -147,22 +147,25 @@
 					<h2 class="sec-title text-center">With SparkInvest, you can:</h2>
 					<div class="flex">
 						<div class="you-can-item animated hiding" data-animation="fadeInUp" data-delay="100">
-							<div class="img-wrap"><img src="images/graphic1.jpg" alt=""></div>
 							<div class="you-can-text">
 								<p><span>Start on</span> your goals whenever you want.</p>
 							</div>
+							<div class="img-wrap"><img src="images/screen1.jpg" alt=""></div>
+							
 						</div>
 						<div class="you-can-item animated hiding" data-animation="fadeInUp" data-delay="200">
-							<div class="img-wrap"><img src="images/graphic2.jpg" alt=""></div>
 							<div class="you-can-text">
 								<p><span>Track</span> your progress in real-time.</p>
 							</div>
+							<div class="img-wrap"><img src="images/screen6.jpg" alt=""></div>
+							
 						</div>
 						<div class="you-can-item animated hiding" data-animation="fadeInUp" data-delay="300">
-							<div class="img-wrap"><img src="images/graphic3.jpg" alt=""></div>
 							<div class="you-can-text">
 								<p><span>Maneuver</span> freely.</p>
 							</div>
+							<div class="img-wrap"><img src="images/screen4.jpg" alt=""></div>
+							
 						</div>
 					</div>
 				</div>
