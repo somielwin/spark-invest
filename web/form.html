@@ -31,7 +31,7 @@
 				<form id="survey-form" action="" method="">
 					<div class="input-wrap" id="required-field">
 						<label for="">How old are you? <span class="required">*</span></label>
-						<input id="survey-age" type="tel" name="" value="" placeholder="Your Answer">
+						<input id="survey-age" type="tel" name="" value="" maxLength="2" placeholder="Your Answer">
 						<div class="required-field text-left"><p>This is a required question</p></div>
 					</div>
 					<div id="q1-wrap" class="input-wrap">
@@ -124,7 +124,7 @@
 							<label for="m-options1">I don’t think I have enough money.</label>
 						</div>
 						<div class="wing-checkbox">
-							<input type="checkbox" id="m-options2" value="I think it’s risky./>
+							<input type="checkbox" id="m-options2" value="I think it’s risky."/>
 							<label for="m-options2">I think it’s risky.</label>
 						</div>
 						<div class="wing-checkbox">
@@ -211,6 +211,7 @@
 
 	$(document).ready(function(){
 		var mOptions = false;
+		var iOptions = false;
 
 		$('#m-options-other').change(function() {
 			if($(this).is(':checked')) {
@@ -221,10 +222,15 @@
 	       	}
 		});
 
-       	if($('#i-options-other:checked').is(':checked')) {
-       		$('#i-options-other').closest('.i-others').find('input[type="text"]').css({'visibility' : 'visible', 'opacity' : '1'});
-       		console.log('test');
-       	} 
+		$('#i-options-other').change(function() {
+			if($(this).is(':checked')) {
+	       		$(this).closest('.i-others').find('input[type="text"]').css({'visibility' : 'visible', 'opacity' : '1'});
+	       		iOptions = true;
+	       	} else {
+	       		$(this).closest('.i-others').find('input[type="text"]').css({'visibility' : 'hidden', 'opacity' : '0'});
+	       	}
+		});
+
 
        	$('#survey-form').submit(function(e){
 	        e.preventDefault();
@@ -237,16 +243,12 @@
 	            isvalidate = false;
 	        }
 
-
-
 			if(!$('#survey-age').val() == '') {
 				$('#survey-form').hide();
 				$('.survey-title p').html('Thank you for taking the time to answer the SparkInvest’s Rookie Investor Questionnaire!  We hope that by answering this survey, you were able to understand your #lifegoals better! We sure did!');
 
 				
-
-			} else {
-				e.preventDefault();
+				var age = $('#survey-age').val();
 
 				var q1 = [];
 				var q2 = [];
@@ -257,45 +259,57 @@
 				var q7 = [];
 				var q8 = [];
 				var q9 = [];
+
 				$('#q1-wrap  input[type="radio"]:checked, #q1-wrap  input[type="checkbox"]:checked').each(function () {
 					var mOptions1 = $(this).val();
 					q1.push(mOptions1);
 				});
 				$('#q2-wrap  input[type="radio"]:checked, #q2-wrap  input[type="checkbox"]:checked').each(function () {
-					 q2 += $(this).val() + ',';
+					var mOptions2 = $(this).val();
+					q2.push(mOptions2);
 				});
 				$('#q3-wrap  input[type="radio"]:checked, #q3-wrap  input[type="checkbox"]:checked').each(function () {
-					 q3 += $(this).val() + ',';
+					var mOptions3 = $(this).val();
+					q3.push(mOptions3);
 				});
-				q4 = $('#q4-wrap input[type="text"]').val();
+
+				mOptions4 = $('#q4-wrap input[type="text"]').val();
+				q4.push(mOptions4);
+
 				$('#q5-wrap  input[type="radio"]:checked, #q5-wrap  input[type="checkbox"]:checked').each(function () {
-					 q5 += $(this).val() + ',';
+					var mOptions5 = $(this).val();
+					q5.push(mOptions5);
 				});
 				$('#q6-wrap  input[type="radio"]:checked, #q6-wrap  input[type="checkbox"]:checked').each(function () {
 					var mOptions6 = $(this).val();
-
 					q6.push(mOptions6);
-
-
 				});
 				$('#q7-wrap  input[type="radio"]:checked, #q7-wrap  input[type="checkbox"]:checked').each(function () {
-					 q7 += $(this).val() + ',';
+					var mOptions7 = $(this).val();
+					q7.push(mOptions7);
 				});
 				$('#q8-wrap  input[type="radio"]:checked, #q8-wrap  input[type="checkbox"]:checked').each(function () {
-					 q8 += $(this).val() + ',';
+					var mOptions8 = $(this).val();
+					q8.push(mOptions8);
 				});
 
 				$('#q9-wrap  input[type="radio"]:checked, #q9-wrap  input[type="checkbox"]:checked').each(function () {
-					 q9 += $(this).val() + ',';
+					var mOptions9 = $(this).val();
+					q9.push(mOptions9);
 				});
 
-
-				if(mOptions == true) {
-					console.log('ssdasdasdas');
-					var mOptions6 = $('#m-options-other').closest('.i-others').find('input[type="text"]').val();
-					q6.push(mOptions6);
+				if(iOptions == true) {
+					var test2 = $('#i-options-other').closest('.i-others').find('input[type="text"]').val();
+					q5.push(test2);
 				}
 
+				if(mOptions == true) {
+					var test1 = $('#m-options-other').closest('.i-others').find('input[type="text"]').val();
+					q6.push(test1);
+				}
+
+				
+				console.log('Age =' + age);
 				console.log('Question1 =' + q1);
 				console.log('Question2 =' + q2);
 				console.log('Question3 =' + q3);
@@ -305,6 +319,12 @@
 				console.log('Question7 =' + q7);
 				console.log('Question8 =' + q8);
 				console.log('Question9 =' + q9);
+
+			} else {
+				e.preventDefault();
+				$('html,body').animate({
+				   scrollTop: $("#survey-form").offset().top
+				});
 
 	            return false;
 			}

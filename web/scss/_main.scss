@@ -1699,11 +1699,15 @@ body {
     background: rgba(0, 0, 0, 0.8);
     width: 100%;
     height: 200%;
-    z-index: 1001;
+    z-index: 1101;
     @include transition(all 0.4s ease);
     @include transform(scale(0));
     visibility: hidden;
     opacity: 0;
+
+    #video-holder & {
+        background: rgba(0, 0, 0, 0.9);
+    }
 
     @include breakpoint(tablet2) {
         background: #fff;
@@ -1721,6 +1725,8 @@ body {
         padding: 0px 0px 20px;
         margin: 30px auto 0;
         position: relative;
+
+        
 
         @include breakpoint(tablet2) {
             margin-top: 0;
@@ -1743,6 +1749,7 @@ body {
             color: $coWhite;
             font-weight: 400;
             font-size: 26px;
+            min-height: 54px;
         }
 
         h6 {
@@ -1792,6 +1799,23 @@ body {
             position: absolute;
 
         }
+    }
+}
+
+.video-holder {
+
+    video {
+        width: 100%;
+        height: auto;
+        display: block;
+
+    }
+}
+
+#video-holder {
+
+    .popup-content {
+        padding-bottom: 0;
     }
 }
 

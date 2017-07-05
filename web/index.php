@@ -18,6 +18,7 @@
 </head>
 <body>
 <section id="main-container">
+
 	<div class="popup-wrap" id="terms-condi">
 		<div class="popup-content">
 			<a href="#" class="closepop"><span class="spark-icon icon-X"></span></a>
@@ -78,6 +79,15 @@
 			</div>
 		</div>
 	</div>
+	<div class="popup-wrap" id="video-holder">
+		<div class="popup-content">
+			<a href="#" class="closepop"><span class="spark-icon icon-X"></span></a>
+			<h4></h4>
+			<div class="video-holder">
+				
+			</div>
+		</div>
+	</div>
 	<section id="main-wrapper">
 		<section id="home-banner" class="jq-section reciept-hidden">
 			<div class="banner-text">
@@ -88,7 +98,7 @@
 								<div class="logo"><a href="#"><img src="images/logo-new.svg" alt=""></a></div>
 								<h1 class="is-animated">SparkInvest is the simple way to reach your <span class="is-animated">#TravelGoals.</span></h1>
 								<p class="is-animated">We get it. Saving is hard. This app takes the hassle out of funding your goals.</p>
-								<a href="" class="btn watch-video is-animated">Watch Video</span> <span class="icon-play"><i class="fa fa-play" aria-hidden="true"></i></span></a>
+								<a href="#" class="btn watch-video is-animated" data-html-video="spark.mp4">Watch Video</span> <span class="icon-play"><i class="fa fa-play" aria-hidden="true"></i></span></a>
 							</div>
 						</div>
 					</div>
@@ -251,8 +261,31 @@
 <script src="js/owl.carousel.js"></script>
 <script src="js/custom.js"></script>
 <script type="text/javascript">
+	$('.watch-video').click(function(){
+		var videoUrl = $(this).attr('data-html-video');
+		var videoElem = '<video width="100%" height="100%" autoplay="true" preload="none">' +
+	                    '<source src="video/'+videoUrl+'" type="video/mp4">' +
+	                   	'<source src="video/'+videoUrl+'" type="video/webm">' +
+	                    '</video>';
+	    $('#video-holder').addClass('active');
+
+	    if($('.video-holder').children('*').size() > 0) {
+	    	$('.video-holder video')[0].play();
+	    } else {
+	    	$('.video-holder').html(videoElem);	
+	    }
+
+
+	    $(".video-holder video").bind("ended", function() {
+			console.log('end');
+			$('.video-holder video')[0].autoplay=false
+			$('#video-holder').removeClass('active');
+		});
+		
+	});
 
 	
+
 </script>
 </body>
 </html>

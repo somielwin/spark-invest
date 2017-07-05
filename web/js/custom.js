@@ -478,6 +478,8 @@ $(document).ready(function() {
     	e.preventDefault();
     	$('body').css({'overflow' : 'initial'});
     	$('.popup-wrap').removeClass('active');
+
+    	$('.video-holder video')[0].pause();
     });
 
     $('.terms-btn').click(function(e){
