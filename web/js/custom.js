@@ -479,7 +479,10 @@ $(document).ready(function() {
     	$('body').css({'overflow' : 'initial'});
     	$('.popup-wrap').removeClass('active');
 
-    	$('.video-holder video')[0].pause();
+    	if($('.watch-video').length > 0) {
+    		$('.video-holder video')[0].pause();
+    	}
+    	
     });
 
     $('.terms-btn').click(function(e){

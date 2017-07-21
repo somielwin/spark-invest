@@ -8,6 +8,43 @@
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
+<style type="text/css">
+	.pace {
+		  -webkit-pointer-events: none;
+		  -moz-pointer-events: none;
+		  -ms-pointer-events: none;
+		  pointer-events: none;
+		  -webkit-user-select: none;
+		  -moz-user-select: none;
+		  -ms-user-select: none;
+		  user-select: none;
+		  -webkit-transition: all 0.5s ease;
+		  -moz-transition: all 0.5s ease;
+		  -ms-transition: all 0.5s ease;
+		  -o-transition: all 0.5s ease;
+		  transition: all 0.5s ease;
+		  background: #f6fcf8; }
+
+		.pace-inactive {
+		  opacity: 0;
+		  filter: alpha(opacity=0); }
+
+		.pace .pace-progress {
+		  z-index: 2000;
+		  position: fixed;
+		  top: 0;
+		  right: 100%;
+		  width: 100%;
+		  height: 2px;
+		  background: rgba(255, 255, 255, 0.8); }
+		  @media (max-width: 767px) {
+		    .pace .pace-progress {
+		      display: none;
+		      opacity: 0;
+		      visibility: hidden; } }
+
+		.pace-done #main-container { opacity: 1; }
+</style>
 <link rel="stylesheet" href="css/style.css" media="all"/>
 
 <!--[if lt IE 9]> <script src="js/css3-mediaqueries.js"></script> <![endif]-->
@@ -89,7 +126,7 @@
 		</div>
 	</div>
 	<section id="main-wrapper">
-		<section id="home-banner" class="jq-section reciept-hidden">
+		<section id="home-banner" class="reciept-hidden">
 			<div class="banner-text">
 				<div class="table-wrap">
 					<div class="table-cell">
@@ -262,7 +299,8 @@
 <script src="js/owl.carousel.js"></script>
 <script src="js/custom.js"></script>
 <script type="text/javascript">
-	$('.watch-video').click(function(){
+	$('.watch-video').click(function(e){
+		e.preventDefault();
 		var videoUrl = $(this).attr('data-html-video');
 		var videoElem = '<video width="100%" height="100%" autoplay="true" preload="none">' +
 	                    '<source src="video/'+videoUrl+'" type="video/mp4">' +

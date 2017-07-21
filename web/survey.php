@@ -9,7 +9,43 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 <link rel="stylesheet" href="css/style.css" media="all"/>
+<style type="text/css">
+	.pace {
+		  -webkit-pointer-events: none;
+		  -moz-pointer-events: none;
+		  -ms-pointer-events: none;
+		  pointer-events: none;
+		  -webkit-user-select: none;
+		  -moz-user-select: none;
+		  -ms-user-select: none;
+		  user-select: none;
+		  -webkit-transition: all 0.5s ease;
+		  -moz-transition: all 0.5s ease;
+		  -ms-transition: all 0.5s ease;
+		  -o-transition: all 0.5s ease;
+		  transition: all 0.5s ease;
+		  background: #f6fcf8; }
 
+		.pace-inactive {
+		  opacity: 0;
+		  filter: alpha(opacity=0); }
+
+		.pace .pace-progress {
+		  z-index: 2000;
+		  position: fixed;
+		  top: 0;
+		  right: 100%;
+		  width: 100%;
+		  height: 2px;
+		  background: rgba(255, 255, 255, 0.8); }
+		  @media (max-width: 767px) {
+		    .pace .pace-progress {
+		      display: none;
+		      opacity: 0;
+		      visibility: hidden; } }
+
+		.pace-done #main-container { opacity: 1; }
+</style>
 <!--[if lt IE 9]> <script src="js/css3-mediaqueries.js"></script> <![endif]-->
 <script src="js/html5.js"></script>
 <script src="js/lib/modernizr-2.8.3.min.js"></script>
@@ -18,6 +54,16 @@
 </head>
 <body>
 <section id="main-container">
+	<div class="popup-wrap" id="error-message">
+		<div class="popup-content">
+			<a href="#" class="closepop"><span class="spark-icon icon-X"></span></a>
+			<h4>Error Message</h4>
+			<div class="popup-content-text">
+				<h6>Error Title</h6>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+			</div>
+		</div>
+	</div>
 	<section id="main-wrapper">
 		<div class="survey-header">
 			<div class="logo"><a href="#"><img src="images/logo-new.svg" alt=""></a></div>
@@ -28,7 +74,10 @@
 					<h1>SparkInvest’s Rookie Investor Questionnaire</h1>
 					<p>So you want to become a Rookie Investor? Don’t worry, SparkInvest got you! This survey will help us get to know you, your goals, and how we can help you achieve them. This way, we can spark those goals better, faster, together! <br> <strong>Ready?</strong></p>
 				</div>
-				<form id="survey-form" action="" method="POST">
+				<form id="survey-form" class="active" action="" method="POST">
+					<div class="wavy-loader">
+						<span></span><span></span><span></span>
+					</div>
 					<div class="input-wrap" id="required-field">
 						<label for="">How old are you? <span class="required">*</span></label>
 						<input id="survey-age" type="tel" name="question1" value="" maxLength="2" placeholder="Your Answer">
@@ -245,6 +294,8 @@
 
 			if(!$('#survey-age').val() == '') {
 				var age = $('#survey-age').val();
+				$('#survey-form').addClass('active');
+
 				var q1 = $('#q1-wrap  input[type="radio"]:checked, #q1-wrap  input[type="checkbox"]:checked').val();
 
 				var q2 = [];
@@ -295,6 +346,8 @@
 					'10': q9,
 				};
 
+
+
 				$.ajax({
 					url: 'form-process/submit.php',
 					type: "POST",
@@ -304,7 +357,7 @@
 							$('#survey-form').hide();
 							$('.survey-title p').html('Thank you for taking the time to answer the SparkInvest’s Rookie Investor Questionnaire!  We hope that by answering this survey, you were able to understand your #lifegoals better! We sure did!');
 						} else {
-							// ERROR MESSAGE
+							$('#error-message').addClass('active');
 						}
 					}
 				});
@@ -317,6 +370,11 @@
 
 	            return false;
 			}
+		});
+
+		$('#error-message .closepop').click(function(){
+			$('#survey-form').show(300);
+			$('#survey-form').removeClass('active');
 		});
 	});
 
