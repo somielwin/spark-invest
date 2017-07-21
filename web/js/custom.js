@@ -107,7 +107,7 @@ function coverImage( image ) {
 	var cW = imgContainer.width(); //width of container or browser
 	var cH = imgContainer.height(); //height of container or browser
 
-	//console.log(iW,iH,cW,cH);
+	
 
 	if ( cH > 1 ) {
 		var cP = cW/cH; //ratio of container or browser
@@ -179,13 +179,6 @@ function IsEmail(email) {
     return regex.test(email);
 }
 
-// function bpStellar() {
-// 	// for parallax background
-// 	$.stellar({
-// 		horizontalScrolling: false,
-// 		verticalOffset: 50
-// 	});
-// }
 
 $(window).resize(function() {
 	resize();
@@ -228,37 +221,6 @@ $(document).ready(function() {
         $(this).children('ul').stop(true, false).slideToggle(150);
     });
 
-    $('.want-options').owlCarousel({
-	    loop:true,
-	    margin:0,
-	    mouseDrag: false,
-	    nav:true,
-	    navigationText: [
-		   "<i class='asd'></i>",
-		   "<i class='asd'></i>"
-		],
-
-	    responsive:{
-	        0:{
-	            items:1
-	        },
-	        320:{
-	            items:3
-	        },
-	        600:{
-	            items:3
-	        },
-	        768:{
-	            items:3
-	        },
-	        1000:{
-	            items:3
-	        }
-	    }
-	})
-
-	$( ".owl-prev").html('<i class="spark-icon icon-left-arrow"></i>');
- 	$( ".owl-next").html('<i class="spark-icon icon-right-arrow"></i>');
 
  	$('input.number-field').keyup(function(event){
 		// skip for arrow keys
@@ -268,192 +230,23 @@ $(document).ready(function() {
 		var $this = $(this);
 		var num = $this.val().replace(/,/gi, "").split("").reverse().join("");
 		var num2 = RemoveRougeChar(num.replace(/(.{3})/g,"$1,").split("").reverse().join(""));
-		//console.log(num2);
+		
 
 
 		// the following line has been simplified. Revision history contains original.
 		$this.val(num2);
 	});
 
-	var optItem = '';
-	var dataWant;
-
-	$(document).on('click', '.type-item a',function(e){
-		e.preventDefault();
-
-		optItem = $(this).attr('href');
-		console.log(optItem)
-		$('.type-item a').removeClass('active');
-		$(this).addClass('active');
-		$('.opt-carousel').removeClass('active');
-		$(optItem).addClass('active');
-		$('.options-carousel .input-wrap').removeClass('error');
-
-		if( optItem == '#car-opt') {
-			dataWant = '<span class="spark-icon icon-Car-Stroke"></span>';
-		} else if ( optItem == '#life-opt') {
-			dataWant = '<span class="spark-icon icon-Life-Evenet-Stroke"></span>';
-		} else if ( optItem == '#educ-opt') {
-			dataWant = '<span class="spark-icon icon-Education-Stroke"></span>';
-		} else if ( optItem == '#general-opt') {
-			dataWant = '<span class="spark-icon icon-General-Need-Stroke"></span>'
-		} else if ( optItem == '#travel-opt') {
-			dataWant = '<span class="spark-icon icon-Trave-Stroke"></span>'
-		} else if ( optItem == '#travel-opt') {
-			dataWant = '<span class="spark-icon icon-Trave-Stroke"></span>'
-		} else {
-			dataWant = '';
-		}
-
-		console.log(dataWant);
-	});
-
-	$("#datepicker").datepicker({
-		changeMonth: true,
-	    changeYear: true,
-	    minDate: new Date(2018, 0, 25),
-	    maxDate: '+30Y',
-	    dateFormat: 'MM yy',
-	    onChangeMonthYear:function(y, m, i){                                
-	        // var d = i.selectedDay;
-	        // $(this).datepicker('setDate', new Date(y, m-1, d));
-
-	        var iMonth = $("#ui-datepicker-div .ui-datepicker-month :selected").val();
-	        var iYear = $("#ui-datepicker-div .ui-datepicker-year :selected").val();
-	        $(this).datepicker('setDate', new Date(iYear, iMonth, 1));
-	    }
-	   //  onClose: function() {
-	        
-	   //  },
-    //  	beforeShow: function() {
-	   //     if ((selDate = $(this).val()).length > 0) {
-				// iYear = selDate.substring(selDate.length - 4, selDate.length);
-				// iMonth = jQuery.inArray(selDate.substring(0, selDate.length - 5),
-				//        $(this).datepicker('option', 'monthNames'));
-				// $(this).datepicker('option', 'defaultDate', new Date(iYear, iMonth, 1));
-				// $(this).datepicker('setDate', new Date(iYear, iMonth, 1));
-	   //     }
-	   //  }
-
-	});
-
-	$('#sparkForm').submit(function(e){
-		e.preventDefault();
-
-		$('html, body').animate({ scrollTop: $("#slot-wrap").offset().top } , 700);
-  //       $('#sparkForm .input-wrap:not(.no-error)').addClass('error');
-  //       isvalidate = false;
-
-  //       if(!$('#invest').val() == '' ) {
-  //       	$('#invest').closest('.input-wrap').removeClass('error');
-        
-  //       	var max = parseFloat($('#invest').val().replace(',', ''));
-
-  //       	if ( max >= 5000 ) {
-		// 		$('#invest').closest('.input-wrap').removeClass('error-minimum');
-		// 		isvalidate = true;
-  //       	} else {
-		// 		$('#invest').closest('.input-wrap').addClass('error-minimum');
-		// 		isvalidate = false;
-  //       	}
-  //       } else {
-  //       	isvalidate = false;
-  //       }
-
-  //       if( optItem != '') {
-  //       	$('.options-carousel .input-wrap').removeClass('error');
-  //       	isvalidate = true;
-  //       } else {
-  //       	isvalidate = false;
-  //       }
-
-  //       if(!$('#datepicker').val() == '') {
-  //       	$('#datepicker').closest('.input-wrap').removeClass('error');
-  //       	isvalidate = true;
-  //       } else {
-		// 	isvalidate = false;
-		// }        
-
-  //       if(!$('#how-need').val() == '') {
-  //       	$('#how-need').closest('.input-wrap').removeClass('error');
-  //       	isvalidate = true;
-  //       } else {
-  //       	isvalidate = false;
-  //       }
-
-  //       if(!$('.opt-carousel.active .goal-options').val() == '') {
-  //       	$('.opt-carousel.active .goal-options').closest('.input-wrap').removeClass('error');
-  //       	isvalidate = true;
-  //       } else {
-  //       	isvalidate = false;
-  //       }
-
-  //       if(!$('#invest').val() == '' && !$('#how-need').val() == ''  && optItem != '' && !$('.opt-carousel.active .goal-options').val() == '') {
-  //       	$('.loading-spinner-wrapper').addClass('active');
-  //       	var target = $('#how-need').val();
-  //       	var invest = $('#invest').val();
-  //       	var when = $('#datepicker').val();
-  //       	var want = $('.opt-carousel.active .goal-options').val();
-  //       	console.log(target);
-  //       	console.log(invest);
-  //       	console.log(want);
-  //       	console.log(when);
-
-  //       	$('.reciept-what-item p').html(want);
-  //       	$('.reciept-what-item .sec-head-icon').html(dataWant);
-  //       	$('.reciept-when p').html(when);
-  //       	$('.reciept-cost p span').html(invest);
-  //       	$('.reciept-target-item p span').html(target);
-
-  //       	setTimeout(function(){
-  //       		$('html, body').animate({ scrollTop: "0" } , 700);
-  //       		$('.pf-item1, .reciept-hidden').css({'display' : 'none', 'visibility' : 'hidden'});
-  //       		$('.pf-item2').css({'display' : 'block'});
-  //       	}, 1000);
-
-        	
-
-  //       } else {
-  //       	return false;
-  //       }
-        
-    });
-
-    // $('#subscribeNewsletter').submit(function(){
-    // 	$('#subscribeNewsletter .input-wrap:not(.no-error)').addClass('error');
-    //     isvalidate = false;
-
-    //     if( IsEmail($('#account-email').val() )) {
-    //         $('#account-email').closest('.input-wrap').removeClass('error');
-    //         isvalidate = true;
-    //     } else {
-    //         isvalidate = false;
-    //     }
-
-    //     if( !$('#first-name').val() == '' ) {
-    //         $('#first-name').closest('.input-wrap').removeClass('error');
-    //         isvalidate = true;
-    //     } else {
-    //         isvalidate = false;
-    //     }
-
-    //     if(!$('#account-email').val() == '' && !$('#first-name').val() == '' ) {
-    //     	//console.log('submitted');
-    //     	return true;
-        	
-    //     } else {
-    //     	return false;
-    //     }
-    // });
+	
 
     $(document).on('click', '#mc-embedded-subscribe', function(){
     	
-    	//console.log('error');
+    	
     	if($(this).hasClass('is-disabled')) {
     		$(this).closest('.input-wrap:not(.no-error)').addClass('error');
     		return false;
     	} else {
-    		console.log('test');
+    		
     		// $('#mc_embed_signup_scroll .input-wrap').hide();
     		$('#mc_embed_signup_scroll .wing-checkbox').hide();
     		return true;
@@ -462,7 +255,7 @@ $(document).ready(function() {
 
     $('#terms-checkbox').change(function(){
 
-        //$('.fill-up-correctly').removeClass('is-open');
+        
 
         if( $('#terms-checkbox').is(':checked')) {
             $('#mc-embedded-subscribe').removeClass('is-disabled');

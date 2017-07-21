@@ -266,8 +266,6 @@
 						<p>Of course you do. <br>We’d appreciate it if you could answer a few questions first.</p>
 						<!-- <a href="https://goo.gl/forms/t61mSBmbs0mzxrwz1" class="btn btn-orange">Take a Survey</a> -->
 						<a href="/survey" class="btn btn-orange">Take a Survey</a>
-
-
 					</div>
 				</div>
 			</div>
@@ -290,13 +288,12 @@
 	</div>
 </footer>
 <script src="js/lib/jquery.min.js"></script>
-<script src="js/lib/jquery-ui.min.js"></script>
 <script src="js/plugins.js"></script>
 <script src="js/TweenMax.min.js"></script>
 <script src="js/ScrollToPlugin.min.js"></script>
 <script src="js/jquery.appear.js"></script>
 <script src="js/jquery.flexslider.js"></script>
-<script src="js/owl.carousel.js"></script>
+
 <script src="js/custom.js"></script>
 <script type="text/javascript">
 	$('.watch-video').click(function(e){
